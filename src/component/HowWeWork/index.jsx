@@ -1,7 +1,7 @@
 import React from "react";
 
 //MUI
-import { Grid } from "@mui/material";
+import { Grid, Box } from "@mui/material";
 
 //Helper
 import { HowWeWorkItems } from "../../helpers/index";
@@ -25,11 +25,9 @@ const HowWeWork = () => {
                 <Grid item xs={12} lg={6} md={6} className="how-we-work-grid-text">
                     {
                         HowWeWorkItems.map((item, index) => (
-                            <div className="how-we-work" key={index}  >
-                               <div className="how-we-work-grid-text-div">
+                            <div className="how-we-work" key={index} data-aos="zoom-in" data-aos-duration="500"> 
                                <h5 className="how-we-work-h5">{item.steps}</h5>
                                 <p className="how-we-work-p">{item.text}</p>
-                               </div>
                             </div>
                         ))
                     }

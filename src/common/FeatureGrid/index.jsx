@@ -15,8 +15,18 @@ const FeatureGrid = ({title, items}) => {
                 </Grid>
                 {
                     items.map((item, index) => (
-                         <Grid key={index} item xs={12} lg={4} md={4} sm={4} className="domestic-features-grid-images">
-                            <div className="domestic-features-images-text"  >
+                         <Grid 
+                         key={index} item xs={12} lg={4} md={4} sm={4} 
+                         className="domestic-features-grid-images" 
+                         sx={{
+                            transition: '0.3s',
+                            '&:hover': {
+                              transform: 'scale(1.03)',
+                              boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                            },
+                         }}
+                         >
+                            <div className="domestic-features-images-text" data-aos="zoom-in" data-aos-duration="500">
                                 <div className="domestic-features-bg-round"></div>
                                 <div className="domestic-features">
                                     <img src={item.image} alt="round" className="domestic-features-round" />

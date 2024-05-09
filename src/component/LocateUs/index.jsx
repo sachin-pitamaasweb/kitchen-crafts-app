@@ -12,7 +12,7 @@ import "./style.css";
 const LocateUs = () => {
     return (
         <>
-            <Grid container className="locate-us-container" spacing={2}>
+            <Grid container className="locate-us-container" spacing={2} data-aos="zoom-in" data-aos-duration="500">
                 <Grid item xs={12} lg={12} md={12} sm={12} className="locate-us-grid-text">
                     <Title title="Locate Us" />
                 </Grid>

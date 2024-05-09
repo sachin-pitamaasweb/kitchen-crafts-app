@@ -21,6 +21,14 @@ const TheCompatibilityRange = () => {
         {
             img: require("../../assets/Products/DomesticRange/TheCompatibilityRange/kc-3.png"),
             name: 'KC-209 Supreme',
+        },
+        {
+            img: require("../../assets/Products/DomesticRange/TheCompatibilityRange/kc-4.png"),
+            name: 'KC-205 Nova',
+        },
+        {
+            img: require("../../assets/Products/DomesticRange/TheCompatibilityRange/kc-5.png"),
+            name: 'KC-207 Supreme',
         }
     ];
 
@@ -92,8 +100,19 @@ const TheCompatibilityRange = () => {
                                 {
                                     CompatibilityRange.map((item, index) => {
                                         return (
-                                            <Grid item xs={12} sm={12} md={4} lg={4} className="the-compatibility-range-card-grid-1" key={index}>
-                                                <div className="the-compatibility-range-card-image-div"  >
+                                            <Grid
+                                                item xs={12} sm={12} md={4} lg={4}
+                                                className="the-compatibility-range-card-grid-1"
+                                                key={index}
+                                                sx={{
+                                                    transition: '0.3s',
+                                                    '&:hover': {
+                                                        transform: 'scale(1.03)',
+                                                        boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                    },
+                                                }}
+                                            >
+                                                <div className="the-compatibility-range-card-image-div" data-aos="zoom-in" data-aos-duration="500">
                                                     <img
                                                         src={item.img}
                                                         alt={item.name}
@@ -116,21 +135,28 @@ const TheCompatibilityRange = () => {
                                         Commander.map((item, index) => {
                                             return (
                                                 <>
-                                                    <Grid 
-                                                    item xs={12} sm={12} md={4} lg={4} 
-                                                    className="the-compatibility-range-card-grid-1"
-                                                     key={index} 
-                                                     
-                                                      
-                                                      >
-                                                        <img
-                                                            src={item.img}
-                                                            alt={item.name}
-                                                            className="the-compatibility-kc-commander"
-                                                        />
-                                                        <h6 className="the-compatibility-range-name-h6">
-                                                            {item.name}
-                                                        </h6>
+                                                    <Grid
+                                                        item xs={12} sm={12} md={4} lg={4}
+                                                        className="the-compatibility-range-card-grid-1"
+                                                        key={index}
+                                                        sx={{
+                                                            transition: '0.3s',
+                                                            '&:hover': {
+                                                                transform: 'scale(1.03)',
+                                                                boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                            },
+                                                        }}
+                                                    >
+                                                        <div className="the-compatibility-range-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.name}
+                                                                className="the-compatibility-kc-commander"
+                                                            />
+                                                            <h6 className="the-compatibility-range-name-h6">
+                                                                {item.name}
+                                                            </h6>
+                                                        </div>
                                                     </Grid>
                                                 </>
                                             )
@@ -145,20 +171,28 @@ const TheCompatibilityRange = () => {
                                         Prime.map((item, index) => {
                                             return (
                                                 <>
-                                                    <Grid 
-                                                    item xs={12} sm={12} md={4} lg={4} 
-                                                    key={index} 
-                                                     
-                                                    className="the-compatibility-range-card-grid-1"
+                                                    <Grid
+                                                        item xs={12} sm={12} md={4} lg={4}
+                                                        key={index}
+                                                        className="the-compatibility-range-card-grid-1"
+                                                        sx={{
+                                                            transition: '0.3s',
+                                                            '&:hover': {
+                                                                transform: 'scale(1.03)',
+                                                                boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                            },
+                                                        }}
                                                     >
-                                                        <img
-                                                            src={item.img}
-                                                            alt={item.name}
-                                                            className="the-compatibility-kc-commander"
-                                                        />
-                                                        <h6 className="the-compatibility-range-name-h6">
-                                                            {item.name}
-                                                        </h6>
+                                                        <div className="the-compatibility-range-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.name}
+                                                                className="the-compatibility-kc-commander"
+                                                            />
+                                                            <h6 className="the-compatibility-range-name-h6">
+                                                                {item.name}
+                                                            </h6>
+                                                        </div>
                                                     </Grid>
                                                 </>
                                             )
@@ -175,20 +209,28 @@ const TheCompatibilityRange = () => {
                                         Benz.map((item, index) => {
                                             return (
                                                 <>
-                                                    <Grid 
-                                                    item xs={12} sm={12} md={4} lg={4}
-                                                     key={index}
-                                                      className="the-compatibility-range-card-grid-1"
-                                                       
-                                                      >
-                                                        <img
-                                                            src={item.img}
-                                                            alt={item.name}
-                                                            className="the-compatibility-kc-commander"
-                                                        />
-                                                        <h6 className="the-compatibility-range-name-h6">
-                                                            {item.name}
-                                                        </h6>
+                                                    <Grid
+                                                        item xs={12} sm={12} md={4} lg={4}
+                                                        key={index}
+                                                        className="the-compatibility-range-card-grid-1"
+                                                        sx={{
+                                                            transition: '0.3s',
+                                                            '&:hover': {
+                                                                transform: 'scale(1.03)',
+                                                                boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                            },
+                                                        }}
+                                                    >
+                                                        <div className="the-compatibility-range-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.name}
+                                                                className="the-compatibility-kc-commander"
+                                                            />
+                                                            <h6 className="the-compatibility-range-name-h6">
+                                                                {item.name}
+                                                            </h6>
+                                                        </div>
                                                     </Grid>
                                                 </>
                                             )
@@ -197,16 +239,16 @@ const TheCompatibilityRange = () => {
                                 </Grid>
                             </div>
                             <Hr />
-                            <FeatureList 
+                            <FeatureList
                                 title={"Features"}
                                 features={[
                                     "Stainless Steel Body",
-                                     "Brass Burner Set",
-                                      "Electroplated Burner Set",
-                                      "2 MS Powder Coated Pan Support",
-                                      "Brass Burner Set",
-                                      "Drip Tray"
-                                    ]}
+                                    "Brass Burner Set",
+                                    "Electroplated Burner Set",
+                                    "2 MS Powder Coated Pan Support",
+                                    "Brass Burner Set",
+                                    "Drip Tray"
+                                ]}
                             />
                         </CardContent>
                     </Card>

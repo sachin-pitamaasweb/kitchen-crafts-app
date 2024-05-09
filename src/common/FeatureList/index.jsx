@@ -9,21 +9,21 @@ const FeatureList = ({ title, features }) => {
         <>
             <div className="domestic-products-features-div">
                 <div className="domestic-products-features-div-items">
-                    <h5 className="domestic-products-features-h5"  >{title}</h5>
-                    <ul className="domestic-products-features-ul">
+                    <h5 className="domestic-products-features-h5" data-aos="zoom-in" data-aos-duration="500">{title}</h5>
+                    <ul className="domestic-products-features-ul" data-aos="zoom-in" data-aos-duration="500">
                         {
                             featuresListRight.map((feature, index) => (
-                                <li className="domestic-products-features-li" key={index}  >{feature}</li>
+                                <li className="domestic-products-features-li" key={index} >{feature}</li>
                             ))
                         }
 
                     </ul>
                 </div>
                 <div className="domestic-products-features-div-items">
-                    <ul className="domestic-products-features-ul" id="domestic-products-features-ul-id">
+                    <ul className="domestic-products-features-ul" id="domestic-products-features-ul-id" data-aos="zoom-in" data-aos-duration="500">
                         {
                             featuresListLeft.map((feature, index) => (
-                                <li className="domestic-products-features-li" key={index}   >{feature}</li>
+                                <li className="domestic-products-features-li" key={index}>{feature}</li>
                             ))
                         }
                      

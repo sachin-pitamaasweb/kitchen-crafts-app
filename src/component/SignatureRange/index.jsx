@@ -32,7 +32,7 @@ const SignatureRange = () => {
                 <Grid item xs={12} sm={12} md={12} lg={12} className="domestic-products-grid">
                     <Card className="domestic-products-card"  >
                         <CardContent className="domestic-products-card-content">
-                            <h5 className="domestic-products-card-h5">
+                            <h5 className="domestic-products-card-h5" data-aos="fade-up" data-aos-duration="500">
                                 The Signature Range
                             </h5>
                             <div className="domestic-products-card-image-div-container">
@@ -41,16 +41,16 @@ const SignatureRange = () => {
 
                                         return (
                                             <>
-                                             <div className="domestic-products-card-image-div" key={index}>
-                                    <img
-                                        src={item.img}
-                                        alt={item.alt || "Signature Range"}
-                                        className="single-burner-range-image"
-                                    />
-                                    <h6 className="domestic-products-name-h6">
-                                        {item.name}
-                                    </h6>
-                                </div>
+                                                <div className="domestic-products-card-image-div" key={index} data-aos="zoom-in" data-aos-duration="500">
+                                                    <img
+                                                        src={item.img}
+                                                        alt={item.alt || "Signature Range"}
+                                                        className="single-burner-range-image"
+                                                    />
+                                                    <h6 className="domestic-products-name-h6">
+                                                        {item.name}
+                                                    </h6>
+                                                </div>
                                             </>
                                         )
                                     })

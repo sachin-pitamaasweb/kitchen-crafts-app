@@ -81,10 +81,17 @@ const BestSellersGridMobileView = ({ title, items }) => {
                 marginBottom: '20px',
                 marginTop: '20px'
               }}
+              sx={{
+                transition: '0.3s',
+                '&:hover': {
+                  transform: 'scale(1.03)',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                }
+              }}
               className='grid-item-mobile-view'
                
             >
-              <Box style={itemStyle}>
+              <Box style={itemStyle} data-aos="zoom-in" data-aos-duration="500">
                 {renderItems(title, index, item)}
                 <button style={buttonStyle}>
                   {item.buttonText}

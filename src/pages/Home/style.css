@@ -1,5 +1,6 @@
 .home{
     margin-top: 92px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 325px) {

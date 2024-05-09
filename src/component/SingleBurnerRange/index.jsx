@@ -32,7 +32,7 @@ const SingleBurnerRange = () => {
                 <Grid item xs={12} sm={12} md={12} lg={12} className="domestic-products-grid">
                     <Card className="domestic-products-card"  >
                         <CardContent className="domestic-products-card-content">
-                            <h5 className="domestic-products-card-h5">
+                            <h5 className="domestic-products-card-h5" data-aos="zoom-in" data-aos-duration="500">
                                 The Single Burner Range
                             </h5>
                             <div className="domestic-products-card-image-div-container">
@@ -40,13 +40,14 @@ const SingleBurnerRange = () => {
                                     SingleBurnerRange.map((item, index) => {
                                         return (
                                             <>
-                                                <div className="domestic-products-card-image-div" key={index}  >
+                                                <div className="domestic-products-card-image-div" key={index}>
                                                     <img
                                                         src={item.img}
                                                         alt={item.alt || item.name}
                                                         className="single-burner-range-image"
+                                                        data-aos="zoom-in" data-aos-duration="500"
                                                     />
-                                                    <h6 className="domestic-products-name-h6">
+                                                    <h6 className="domestic-products-name-h6" data-aos="zoom-in" data-aos-duration="500">
                                                        {item.name}
                                                     </h6>
                                                 </div>

@@ -31,13 +31,19 @@ const ContactInfoMobileView = () => {
                item
                 xs={4}
                 className={"contact-info-grid-mobile"}
-                 
                 key={index}
+                sx={{
+                  transition: '0.3s',
+                  '&:hover': {
+                    transform: 'scale(1.03)',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                  },
+                }}
               >
-                <div className="contact-info-icon-div">
+                <div className="contact-info-icon-div"  data-aos="zoom-in" data-aos-duration="500">
                   <img src={require(`../../assets/icons/${detail.icon}.png`)} alt={detail.text} className="contact-info-icon-mobile" />
                 </div>
-                <div className="contact-info-text-div" >
+                <div className="contact-info-text-div"  data-aos="zoom-in" data-aos-duration="500" >
                   <h5 className="contact-info-text-mobile">{detail.text}</h5>
                 </div>
               </Grid>

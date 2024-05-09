@@ -8,16 +8,14 @@ import "./style.css";
 const WriteUs = () => {
     return (
         <>
-              <div className="write-us-container">
+              <div className="write-us-container" data-aos="zoom-in" data-aos-duration="500">
                 <Title title="Write Us" className="write-us-title" />
-                <form className="write-us-form"  >
+                <form className="write-us-form">
                   <div className="write-us-div-input-1">
                     <input
                      type="text"
                      className="write-us-input"
                      placeholder="First Name"
-                     
-                     
                     />
                      <input
                      type="text"

@@ -42,7 +42,7 @@ const ReflectoRange = () => {
                 <Grid item xs={12} sm={12} md={12} lg={12} className="domestic-products-grid">
                     <Card className="domestic-products-card"  >
                         <CardContent className="domestic-products-card-content">
-                            <h5 className="domestic-products-card-h5">
+                            <h5 className="domestic-products-card-h5" data-aos="fade-up" data-aos-duration="500">
                                 The Reflecto Range
                             </h5>
                             <Grid
@@ -52,22 +52,32 @@ const ReflectoRange = () => {
                                 justifyContent="center"
                                 alignItems="center"
                                 className="the-spectra-range"
-                                 
+
                             >
 
                                 {
                                     ReflectoRange.map((item, index) => {
                                         return (
                                             <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index}  >
-                                                    <img
-                                                        src={item.img}
-                                                        alt={item.alt || 'reflecto-range'}
-                                                        className="single-burner-range-image"
-                                                    />
-                                                    <h6 className="domestic-products-name-h6">
-                                                        {item.name}
-                                                    </h6>
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index}
+                                                    sx={{
+                                                        transition: '0.3s',
+                                                        '&:hover': {
+                                                            transform: 'scale(1.03)',
+                                                            boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                        },
+                                                    }}
+                                                >
+                                                    <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                        <img
+                                                            src={item.img}
+                                                            alt={item.alt || 'reflecto-range'}
+                                                            className="single-burner-range-image"
+                                                        />
+                                                        <h6 className="domestic-products-name-h6">
+                                                            {item.name}
+                                                        </h6>
+                                                    </div>
                                                 </Grid>
                                             </>
                                         )

@@ -54,9 +54,16 @@ const OurMission = () => {
                             lg={4}
                             md={4}
                             className="our-mission-image-text-grid"
-                             
+                            sx={{
+                                transition: '0.3s',
+                                '&:hover': {
+                                  transform: 'scale(1.03)',
+                                  boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                },
+                    
+                              }}
                         >
-                            <div className="our-mission-image-text-div">
+                            <div className="our-mission-image-text-div" data-aos="zoom-in" data-aos-duration="500">
                                 <div className="our-mission-image-div">
                                     <img
                                         src={item.imgUrl}
@@ -70,7 +77,7 @@ const OurMission = () => {
                     ))
                 }
                 <Grid item xs={12} className="our-mission-grid-text"  >
-                    <p className="our-mission-p">
+                    <p className="our-mission-p" data-aos="fade-up" data-aos-duration="500">
                         Greencook, based in Varanasi, is a global leader in super fuel-efficient cooking appliances, transforming clean cooking worldwide. Their modern gas stove facility,
                         launched in 2019, emphasizes safety and efficiency with a remarkable production rate of a stove every minute and a 99.95% accuracy rate.
                         With a forward-thinking development team, Greencook continues to innovate LPG and electric/hybrid stoves,

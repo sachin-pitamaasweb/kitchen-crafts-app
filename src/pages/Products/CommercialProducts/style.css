@@ -61,10 +61,10 @@
     cursor: pointer;
     width: 100px;
     height: 100px;
-    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* .commercial-products-arrow:hover {
+.commercial-products-arrow:hover {
     transform: scale(1.05);
 }
 
@@ -74,7 +74,7 @@
 
 .commercial-products-card-image:hover {
     transform: scale(1.05);
-} */
+}
 
 
 @media screen and (max-width: 600px) {

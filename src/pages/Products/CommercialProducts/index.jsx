@@ -54,19 +54,17 @@ const CommercialProducts = () => {
                             md={gridConfig.md}
                             lg={gridConfig.lg}
                             className="commercial-products-grid"
-                             
                         >
                             <Card className="commercial-products-card">
                                 <CardContent className="commercial-products-card-content">
                                     <h5 className="commercial-products-card-h5">
                                         {subcategory.subcategory}
                                     </h5>
-                                    <div className="commercial-products-card-image-div">
+                                    <div className="commercial-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
                                         {subcategory.products.map((product, productIndex) => (
                                             <div
                                                 key={productIndex}
-                                                className="commercial-products-card-image"
-                                                 
+                                                className="commercial-products-card-image"       
                                             >
                                                 <img
                                                     src={product.image}

@@ -6,7 +6,7 @@ import './WriteUsMobileView.css';
 const WriteUsMobileView = () => {
     return (
         <>
-            <div className="write-us-div-mobile">
+            <div className="write-us-div-mobile" data-aos="zoom-in" data-aos-duration="500">
                 <div className="write-us-h3-div-mobile">
                     <Title title="Write Us" className="write-us-title" />
                 </div>
