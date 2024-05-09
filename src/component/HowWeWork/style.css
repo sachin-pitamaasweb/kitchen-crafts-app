@@ -15,18 +15,18 @@
     display: flex;
     gap: 30px;
     margin-bottom: 25px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
 
 .how-we-work-grid-text-div {
     display: flex;
     gap: 30px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
 
-.how-we-work-grid-text-div:hover {
+/* .how-we-work-grid-text-div:hover {
     transform: scale(1.05);
-}
+} */
 
 .how-we-work-h5 {
     color: #FE5656;
@@ -40,13 +40,13 @@
     font-weight: 400;
 }
 
-.how-we-work-grid-image {
+/* .how-we-work-grid-image {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
+} */
 
-.how-we-work-grid-image:hover {
+/* .how-we-work-grid-image:hover {
     transform: scale(1.05);
-}
+} */
 
 @media screen and (max-width: 600px) {
     .how-we-work-container {
@@ -91,16 +91,16 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
     .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
     }
 
-    .how-we-work-grid-image {
+    /* .how-we-work-grid-image {
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    }
+    } */
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
@@ -150,20 +150,20 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
-
+/* 
     .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
-    }
+    } */
 
-    .how-we-work-grid-image {
+    /* .how-we-work-grid-image {
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }
 
 
@@ -212,20 +212,20 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
-    .how-we-work-grid-text-div:hover {
+    /* .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
-    }
-
+    } */
+/* 
     .how-we-work-grid-image {
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    }
+    } */
 
-    .how-we-work-grid-image:hover {
+    /* .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }
 
 
@@ -274,10 +274,10 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
-    .how-we-work-grid-text-div:hover {
+    /* .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
     }
 
@@ -287,7 +287,7 @@
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }
 
 
@@ -336,10 +336,10 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
-    .how-we-work-grid-text-div:hover {
+    /* .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
     }
 
@@ -349,7 +349,7 @@
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }
 
 
@@ -399,10 +399,10 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
-    .how-we-work-grid-text-div:hover {
+    /* .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
     }
 
@@ -412,7 +412,7 @@
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1500px) {
@@ -459,10 +459,10 @@
     .how-we-work-grid-text-div {
         display: flex;
         gap: 30px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     }
 
-    .how-we-work-grid-text-div:hover {
+    /* .how-we-work-grid-text-div:hover {
         transform: scale(1.05);
     }
 
@@ -472,5 +472,5 @@
 
     .how-we-work-grid-image:hover {
         transform: scale(1.05);
-    }
+    } */
 }

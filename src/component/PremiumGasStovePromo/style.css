@@ -49,13 +49,13 @@
     display: flex;
     justify-content: center;
     margin-top: -100px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
 
 
-.premium-gas-stove-promo-button-div:hover {
+/* .premium-gas-stove-promo-button-div:hover {
     transform: scale(1.05);
-}
+} */
 
 
 @media screen and (max-width: 325px) {

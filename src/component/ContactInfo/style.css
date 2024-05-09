@@ -9,11 +9,11 @@
     border-left-style: dashed;
     border-right-style: dashed;
     margin-bottom: 43px !important;
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
-.contact-info-grid:hover {
+/* .contact-info-grid:hover {
     transform: scale(1.2);
-  }
+  } */
 
 .contact-info-icon{
     width: 40px;
@@ -21,11 +21,11 @@
 }
 .contact-info-grid-last{
     margin-top: -215px !important;
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
-.contact-info-grid-last:hover{
+/* .contact-info-grid-last:hover{
     transform: scale(1.2);
-}
+} */
 .contact-info-icon-div{
     display: flex;
     justify-content: center;

@@ -18,10 +18,10 @@
     position: absolute;
 }
 
-.grid-item-mobile-view {
+/* .grid-item-mobile-view {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .grid-item-mobile-view:hover {
     transform: scale(1.05);
-}
+} */

@@ -33,13 +33,13 @@
     position: absolute;
     
 }
-.best-seller-grid-3{
+/* .best-seller-grid-3{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .best-seller-grid-3:hover {
     transform: scale(1.05);
-}
+} */
 
 .best-seller-bg-image {
     margin-left: 39px;

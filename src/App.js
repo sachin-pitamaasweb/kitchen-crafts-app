@@ -1,5 +1,6 @@
 import React, { useEffect, Suspense, lazy } from 'react';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // MUI 

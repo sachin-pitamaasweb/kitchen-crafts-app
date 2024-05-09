@@ -11,7 +11,7 @@
   .menu-icon .line {
     background-color: rgb(255, 255, 255); /* Change color as needed */
     height: 2px; /* Thickness of the lines */
-    transition: transform 0.3s, opacity 0.3s; /* Transition effects */
+    transition: transform 0.3s, opacity 0.3s;
   }
   
   .menu-icon.open .line:nth-child(1) {

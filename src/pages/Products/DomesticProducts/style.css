@@ -51,11 +51,11 @@
 }
 .domestic-products-features-li{
     font-size: 20px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  */
 }
-.domestic-products-features-li:hover{
+/* .domestic-products-features-li:hover{
     transform: scale(1.1);
-}
+} */
 .the-signature-range{
     margin-top: 10px !important;
     padding-left: 46px !important;
@@ -79,11 +79,11 @@
 .the-spectra-range-1{
     margin-top: 30px !important;
     margin-bottom: 30px !important;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  */
 }
-.the-spectra-range-1:hover{
+/* .the-spectra-range-1:hover{
     transform: scale(1.05);
-}
+} */
 
 @media screen and (max-width: 600px) {
     .domestic-products-container {

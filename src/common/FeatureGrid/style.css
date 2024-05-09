@@ -2,12 +2,12 @@
     margin-top: 50px !important;
     padding-left: 107px !important;
 }
-.domestic-features-grid-images{
+/* .domestic-features-grid-images{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .domestic-features-grid-images:hover {
     transform: scale(1.05); 
-  }
+  } */
 
 .domestic-features-h3 {
     font-size: 80px;

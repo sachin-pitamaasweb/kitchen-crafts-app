@@ -28,11 +28,11 @@
 .contact-info-grid-mobile {
     padding: 10px;
     height: 65px;
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
-.contact-info-grid-mobile:hover {
+/* .contact-info-grid-mobile:hover {
     transform: scale(1.2);
-}
+} */
 
 .contact-info-div { 
     margin-top: -235px;
