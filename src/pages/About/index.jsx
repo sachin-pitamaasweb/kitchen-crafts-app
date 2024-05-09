@@ -7,11 +7,13 @@ import Banners from "../../common/Banners";
 import AboutText from "../../component/AboutText";
 import OurMission from "../../component/OurMission";
 
+import AboutImageBanner from "../../assets/banner/about-banner.svg";
+
 const About = () => {
     return (
         <>
             <Banners
-                imgUrl={require("../../assets/banner/about-banner.png")}
+                imgUrl={AboutImageBanner}
             />
             <AboutText />
             <OurMission />

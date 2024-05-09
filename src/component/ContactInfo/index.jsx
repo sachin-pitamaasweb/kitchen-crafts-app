@@ -19,7 +19,7 @@ const ContactInfo = () => {
     ];
     
     return (
-        <Grid container className="contact-info-container" spacing={2} data-aos="zoom-in" >
+        <Grid container className="contact-info-container" spacing={2}  >
             {/* Background Image */}
             <Grid item xs={12}>
                 <img
@@ -39,7 +39,7 @@ const ContactInfo = () => {
                     md={4}
                     sm={12}
                     className={index === 1 ? "contact-info-grid" : "contact-info-grid-last"}
-                    data-aos="zoom-in"  
+                      
                 >
                     <div className="contact-info-icon-div">
                         <img

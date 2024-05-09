@@ -5,7 +5,7 @@ import './FooterLogo.css';
 const FooterLogo = () => {
  return(
     <>
-    <div className="footer-logo-div" data-aos="zoom-in" >
+    <div className="footer-logo-div"  >
         <img src={require('../../assets/logo/logo.png')} alt="logo" className="footer-logo" />
     </div>
     </>

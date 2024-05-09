@@ -19,7 +19,6 @@
     text-align: center;
 }
 
-
 @media screen and (max-width: 600px) {
     .about-text-container{
         margin-top: 0px !important;
@@ -65,3 +64,4 @@
     }
     
 }
+

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 //MUI
 import {
     AppBar,
@@ -32,6 +32,7 @@ const navData = [
 ];
 
 const Header = () => {
+    const navigate = useNavigate();
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.up('sm'));
 
@@ -52,6 +53,11 @@ const Header = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    const handleLogoClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        navigate('/');
+    }
+
     return (
         <>
             {matches ? (
@@ -60,12 +66,11 @@ const Header = () => {
                     <AppBar component="nav" className='app-bar'>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className='app-bar-inner'>
                             <div className='inner-div'>
-                                <div className='logo-div'>
+                                <div className='logo-div' onClick={handleLogoClick}>
                                     <img
                                         src={require('../../assets/logo/logo.png')}
                                         alt='logo'
                                         className='logo'
-                                        loading="lazy"
                                     />
                                 </div>
                                 <div className='text-div'>

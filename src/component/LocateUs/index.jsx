@@ -16,10 +16,10 @@ const LocateUs = () => {
                 <Grid item xs={12} lg={12} md={12} sm={12} className="locate-us-grid-text">
                     <Title title="Locate Us" />
                 </Grid>
-               <Grid className="locate-us-grid-bg" item xs={12} lg={12} md={12} sm={12} data-aos="zoom-in" >
+               <Grid className="locate-us-grid-bg" item xs={12} lg={12} md={12} sm={12}  >
                <div  className="locate-us-grid-text-bg"></div>
                </Grid>
-                <Grid className="locate-us-grid" item xs={12} lg={12} md={12} sm={12} data-aos="zoom-in" >
+                <Grid className="locate-us-grid" item xs={12} lg={12} md={12} sm={12}  >
                     <iframe
                         className="locate-us-frame"
                         title="Google Map"
@@ -29,7 +29,7 @@ const LocateUs = () => {
                     </iframe>
                 </Grid>
                 <Grid className="locate-us-grid-bg-bottom" item xs={12} lg={12} md={12} sm={12} >
-                <div className="locate-us-grid-text-bg-1" data-aos="zoom-in" ></div>
+                <div className="locate-us-grid-text-bg-1"  ></div>
                 </Grid>
             </Grid>
         </>

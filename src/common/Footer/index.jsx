@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="footer-div-image">
                     <img src={require('../../assets/logo/footer-up-image.png')} alt="logo" className="footer-up-image" />
                     {isAboutPage && (
-                        <div className="footer-image"  data-aos="zoom-in" >
+                        <div className="footer-image"   >
                             <img src={require("../../assets/About/our-mission-footer.png")} alt="footer" className="our-mission-footer" />
                         </div>
                     )}

@@ -1,6 +1,4 @@
 import React, { useEffect, Suspense, lazy } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // MUI 
@@ -23,10 +21,6 @@ const CommercialProducts = lazy(() => import('./pages/Products/CommercialProduct
 function App() {
   const theme = useTheme();
   const mobileView = useMediaQuery(theme.breakpoints.up('md'));
-
-  useEffect(() => {
-    AOS.init({});
-  });
 
   return (
     <Router>

@@ -43,7 +43,7 @@ const OurWork = () => {
                 {
                     OurWorkItems.map((item, index) => (
                         <Grid item xs={12} lg={6} md={6} className="our-work-grid-card" key={index}>
-                            <div className="our-work-card" data-aos="zoom-in" >
+                            <div className="our-work-card"  >
                                 <div className="our-work-card-text-no">
                                     <h5 className="our-work-card-h5-no">{item.no}</h5>
                                     <h5 className="our-work-card-h5">{item.title}</h5>

@@ -15,6 +15,8 @@ import ContactInfo from "../../component/ContactInfo";
 import WriteUsMobileView from "../../component/WriteUs/WriteUsMobileView.jsx";
 import ContactInfoMobileView from "../../component/ContactInfo/ContactInfoMobileView.jsx";
 
+import ContactImageBanner from '../../assets/banner/contact-banner.svg';
+
 //styles
 import "./style.css";
 
@@ -26,7 +28,7 @@ const Contact = () => {
   return (
     <>
       <Banners
-        imgUrl={require("../../assets/banner/contact-banner.png")}
+        imgUrl={ContactImageBanner}
       />
       {
         matches ? <ContactInfo /> : <ContactInfoMobileView />

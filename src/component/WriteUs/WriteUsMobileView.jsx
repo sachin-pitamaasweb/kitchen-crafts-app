@@ -10,13 +10,13 @@ const WriteUsMobileView = () => {
                 <div className="write-us-h3-div-mobile">
                     <Title title="Write Us" className="write-us-title" />
                 </div>
-                <form className="write-us-form-mobile" data-aos="zoom-in" >
+                <form className="write-us-form-mobile"  >
                     <div className="write-us-input-div-mobile">
                         <input
                             type="text"
                             className="write-us-input-mobile"
                             placeholder="First Name"
-                            data-aos="zoom-in"
+                            
                            
                         />
                     </div>
@@ -25,7 +25,7 @@ const WriteUsMobileView = () => {
                             type="text"
                             className="write-us-input-mobile"
                             placeholder="Last Name"
-                            data-aos="zoom-in"
+                            
                            
                         />
                     </div>
@@ -34,7 +34,7 @@ const WriteUsMobileView = () => {
                             type="text"
                             className="write-us-input-mobile"
                             placeholder="Phone No"
-                            data-aos="zoom-in"
+                            
                            
                         />
                     </div>
@@ -43,7 +43,7 @@ const WriteUsMobileView = () => {
                             type="text"
                             className="write-us-input-mobile"
                             placeholder="Email Address"
-                            data-aos="zoom-in"
+                            
                            
                         />
                     </div>
@@ -53,11 +53,11 @@ const WriteUsMobileView = () => {
                             className="write-us-input-mobile"
                             placeholder="Message"
                             rows={4}
-                            data-aos="zoom-in"
+                            
                            
                         />
                     </div>
-                    <div className="write-us-btn-div-mobile"  data-aos="zoom-in">
+                    <div className="write-us-btn-div-mobile"  >
                         <button className="write-us-button-mobile">Submit</button>
                     </div>
                 </form>

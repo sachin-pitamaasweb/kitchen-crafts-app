@@ -36,7 +36,7 @@ const OurFamily = () => {
                 </Grid>
                 {
                     OurFamilyItems.map((item, index) => (
-                        <Grid item xs={12} sm={12} lg={3} md={3} key={index} className="our-family-grid-images" data-aos="zoom-in" >
+                        <Grid item xs={12} sm={12} lg={3} md={3} key={index} className="our-family-grid-images"  >
                             <div className="our-family">
                                 <h5 className="our-family-h5-no">
                                     {item.no}

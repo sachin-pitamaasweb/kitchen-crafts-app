@@ -21,7 +21,7 @@ const ContactInfoMobileView = () => {
   ];
   return (
     <>
-      <div container className="contact-info-container-mobile" data-aos="zoom-in"  >
+      <div container className="contact-info-container-mobile"   >
         <img src={require("../../assets/Contact/bg.png")} alt="background" className="contact-info-image-mobile"  />
         <div className="contact-info-div">
           {
@@ -31,7 +31,7 @@ const ContactInfoMobileView = () => {
                item
                 xs={4}
                 className={"contact-info-grid-mobile"}
-                data-aos="zoom-in" 
+                 
                 key={index}
               >
                 <div className="contact-info-icon-div">

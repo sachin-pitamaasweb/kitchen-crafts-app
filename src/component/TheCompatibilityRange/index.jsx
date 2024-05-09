@@ -78,7 +78,7 @@ const TheCompatibilityRange = () => {
                 spacing={2}
             >
                 <Grid item xs={12} sm={12} md={12} lg={12} className="the-compatibility-range-grid">
-                    <Card className="the-compatibility-range-card" data-aos="zoom-in" >
+                    <Card className="the-compatibility-range-card"  >
                         <CardContent className="the-compatibility-range-card-content">
                             <h5 className="the-compatibility-range-card-h5">The Compatibility Range</h5>
                             <Grid
@@ -93,7 +93,7 @@ const TheCompatibilityRange = () => {
                                     CompatibilityRange.map((item, index) => {
                                         return (
                                             <Grid item xs={12} sm={12} md={4} lg={4} className="the-compatibility-range-card-grid-1" key={index}>
-                                                <div className="the-compatibility-range-card-image-div" data-aos="zoom-in" >
+                                                <div className="the-compatibility-range-card-image-div"  >
                                                     <img
                                                         src={item.img}
                                                         alt={item.name}
@@ -120,7 +120,7 @@ const TheCompatibilityRange = () => {
                                                     item xs={12} sm={12} md={4} lg={4} 
                                                     className="the-compatibility-range-card-grid-1"
                                                      key={index} 
-                                                     data-aos="zoom-in"
+                                                     
                                                       
                                                       >
                                                         <img
@@ -148,7 +148,7 @@ const TheCompatibilityRange = () => {
                                                     <Grid 
                                                     item xs={12} sm={12} md={4} lg={4} 
                                                     key={index} 
-                                                    data-aos="zoom-in" 
+                                                     
                                                     className="the-compatibility-range-card-grid-1"
                                                     >
                                                         <img
@@ -179,7 +179,7 @@ const TheCompatibilityRange = () => {
                                                     item xs={12} sm={12} md={4} lg={4}
                                                      key={index}
                                                       className="the-compatibility-range-card-grid-1"
-                                                      data-aos="zoom-in" 
+                                                       
                                                       >
                                                         <img
                                                             src={item.img}

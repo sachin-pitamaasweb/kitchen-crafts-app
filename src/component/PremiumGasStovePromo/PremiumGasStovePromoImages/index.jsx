@@ -23,7 +23,7 @@ const PremiumGasStovePromoImages = () => {
               src={imageSrc}
               className="premium-gas-stove-promo-images"
               alt={`stove ${index + 1}`}
-              data-aos="zoom-in"
+              
               
             />
           </div>

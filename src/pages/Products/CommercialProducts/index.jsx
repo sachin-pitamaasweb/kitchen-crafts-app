@@ -6,6 +6,8 @@ import { Card, CardContent, Grid } from "@mui/material";
 
 import { productCategories } from "../../../helpers/index";
 
+import ImageProduct from '../../../assets/banner/product-banner.svg';
+
 import "./style.css";
 
 // Grid configurations for each subcategory
@@ -36,7 +38,7 @@ const CommercialProducts = () => {
     return (
         <>
             <Banners
-                imgUrl={require("../../../assets/banner/product-banner.png")}
+                imgUrl={ImageProduct}
             />
             <CommonTitle title={"Commercial Products"} />
             <Grid container spacing={2} className="commercial-products-container">
@@ -52,7 +54,7 @@ const CommercialProducts = () => {
                             md={gridConfig.md}
                             lg={gridConfig.lg}
                             className="commercial-products-grid"
-                            data-aos="zoom-in" 
+                             
                         >
                             <Card className="commercial-products-card">
                                 <CardContent className="commercial-products-card-content">
@@ -64,7 +66,7 @@ const CommercialProducts = () => {
                                             <div
                                                 key={productIndex}
                                                 className="commercial-products-card-image"
-                                                data-aos="zoom-in" 
+                                                 
                                             >
                                                 <img
                                                     src={product.image}
@@ -82,10 +84,10 @@ const CommercialProducts = () => {
                         </Grid>
                     );
                 })}
-                <Grid item xs={12} sm={12} md={4} lg={4} className="commercial-products-grid" data-aos="zoom-in" >
+                <Grid item xs={12} sm={12} md={4} lg={4} className="commercial-products-grid"  >
                     <Card className="commercial-products-card">
                         <CardContent className="commercial-products-card-content-explore">
-                            <div className="commercial-products-card-content-div" data-aos="zoom-in" >
+                            <div className="commercial-products-card-content-div"  >
                                 <h4 className="commercial-products-card-h4">Explore <br />Domestic Range</h4>
                                 <img
                                     src={require("../../../assets/Products/CommercialRange/arrow.png")}

@@ -13,6 +13,8 @@ import SignatureRange from "../../../component/SignatureRange/index.jsx";
 import SingleBurnerRange from '../../../component/SingleBurnerRange/index.jsx';
 import TheCompatibilityRange from "../../../component/TheCompatibilityRange/index.jsx";
 
+import ProductImage from "../../../assets/banner/product-banner.svg";
+
 import './style.css';
 
 const DomesticProducts = () => {
@@ -20,7 +22,7 @@ const DomesticProducts = () => {
     return (
         <>
             <Banners
-                imgUrl={require("../../../assets/banner/product-banner.png")}
+                imgUrl={ProductImage}
             />
             <CommonTitle
                 title={"Domestic Products"}

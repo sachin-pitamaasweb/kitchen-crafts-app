@@ -16,7 +16,7 @@ const QuickLinks = ({ mobileView }) => {
             <div className={mobileView ? "quick-links-div-mobile" : "quick-links"}>
                 <div
                     className="quick-links-div"
-                    data-aos="zoom-in"
+                    
                     
                 >
                     {

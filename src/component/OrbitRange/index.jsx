@@ -30,7 +30,7 @@ const TheOrbitRange = () => {
         <>
             <Grid container spacing={2} className="the-signature-range">
                 <Grid item xs={12} sm={12} md={12} lg={12} className="domestic-products-grid">
-                    <Card className="domestic-products-card" data-aos="zoom-in" >
+                    <Card className="domestic-products-card"  >
                         <CardContent className="domestic-products-card-content">
                             <h5 className="domestic-products-card-h5">
                                 The Orbit Range
@@ -40,7 +40,7 @@ const TheOrbitRange = () => {
                                     TheOrbitRange.map((item, index) => {
                                         return (
                                             <>
-                                                <div className="domestic-products-card-image-div" key={index} data-aos="zoom-in" >
+                                                <div className="domestic-products-card-image-div" key={index}  >
                                                     <img
                                                         src={item.img}
                                                         alt={item.alt || "Orbit Range"}

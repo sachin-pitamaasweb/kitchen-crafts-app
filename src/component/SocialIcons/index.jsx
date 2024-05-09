@@ -19,7 +19,7 @@ const SocialIcons = ({ mobileView }) => {
               mobileView ? "social-icons-image-mobile" : "social-icons-image"
             }
             key={index}
-            data-aos="zoom-in"
+            
             
           />
         ))}
