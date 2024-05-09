@@ -1,7 +1,7 @@
 import React from "react";
 
 //MUI
-import { Grid, Box } from "@mui/material";
+import { Grid } from "@mui/material";
 
 //Helper
 import { HowWeWorkItems } from "../../helpers/index";
