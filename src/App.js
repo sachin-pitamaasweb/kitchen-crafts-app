@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({});
-  }); // add empty dependency array to ensure useEffect only runs once
+  }); 
 
   return (
     <Router>
