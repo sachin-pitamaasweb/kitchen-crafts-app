@@ -1,0 +1,38 @@
+.domestic-best-seller-p{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.domestic-best-seller-p-mobile{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .domestic-best-seller-p {
+        text-align: center !important;
+        font-size: 22px !important;
+        color: #000000 !important;
+        font-weight: 400 !important;
+        padding: 30px !important;
+        margin-top: 61px !important;
+    }
+}
+
+@media screen and (min-width: 901px) and  (max-width: 5000px) {
+    .domestic-best-seller-p {
+        text-align: center !important;
+        font-size: 22px !important;
+        color: #000000 !important;
+        font-weight: 400 !important;
+        padding: 30px !important;
+        margin-top: 61px !important;
+    }
+}

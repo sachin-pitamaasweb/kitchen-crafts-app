@@ -1,0 +1,41 @@
+.footer-for-mobile {
+    background: linear-gradient(to right,
+            #E67940 0%,
+            #FE5656 50%,
+            #D4642A 100%) !important;
+}
+
+.logo-div-for-mobile-view {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.footer-logo-mobile {
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-top: 25px;
+}
+
+.footer-logo-mobile-img {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.footer-up-image-for-mobile {
+    width: 100%;
+    position: absolute;
+}
+
+
+.footer-image-for-mobile {
+    display: block;
+    justify-content: end;
+    margin-top: -335px;
+}
+.our-mission-footer-mobile{
+    width: 100%;
+    object-fit: contain;
+}

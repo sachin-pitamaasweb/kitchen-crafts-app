@@ -1,0 +1,17 @@
+.title-h3 {
+    font-size: calc(1rem + 2vw);
+    /* 1vw = 1% of the viewport width */
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.write-us-title{
+    font-size: calc(1rem + 2vw);
+    /* 1vw = 1% of the viewport width */
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    margin: 2.5rem 0; 
+}

@@ -1,0 +1,27 @@
+.best-seller-bg {
+    margin-top: -18px;
+}
+
+.best-seller-bg-top {
+    margin-top: -24px;
+}
+
+.images-mobile-view {
+    width: 100% !important;
+    transform: rotate(180deg);
+}
+
+.images-mobile-view-top {
+    width: 100% !important;
+    transform: rotate(0deg);
+    margin-top: 0px;
+    position: absolute;
+}
+
+.grid-item-mobile-view {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.grid-item-mobile-view:hover {
+    transform: scale(1.05);
+}

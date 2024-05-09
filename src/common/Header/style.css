@@ -1,0 +1,540 @@
+.app-bar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.app-bar-inner {
+  padding: 10px !important;
+}
+
+.inner-div {
+  background: linear-gradient(to right,
+      #E67940 0%,
+      #FE5656 50%,
+      #D4642A 100%);
+  height: 80px;
+  width: 90%;
+  border-radius: 60px;
+}
+
+.logo-div {
+  background-color: #fff;
+  width: 11%;
+  height: 80px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  margin-left: -1px;
+}
+
+.logo {
+  width: 70%;
+  object-fit: contain;
+  margin-left: 25px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  gap: 100px;
+  font-size: 32px;
+  font-family: 'Philosopher', sans-serif !important;
+  margin-top: 10px;
+  padding-right: 61px;
+}
+
+.text-div {
+  margin-top: -76px;
+  margin-left: 200px;
+}
+
+
+.active {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'Philosopher', sans-serif !important;
+}
+
+.active-menu {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Philosopher', sans-serif !important;
+}
+
+@media screen and (max-width: 600px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 22% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 100% !important;
+    object-fit: contain !important;
+    margin-left: 3px !important;
+  }
+
+  .text-div {
+    margin-top: -59px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 29px !important;
+    font-size: 14px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 7px !important;
+    padding-right: 20px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 22% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 100% !important;
+    object-fit: contain !important;
+    margin-left: 3px !important;
+  }
+
+  .text-div {
+    margin-top: -59px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 29px !important;
+    font-size: 14px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 7px !important;
+    padding-right: 20px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 16% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 91% !important;
+    object-fit: contain !important;
+    margin-left: 3px !important;
+  }
+
+  .text-div {
+    margin-top: -59px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 29px !important;
+    font-size: 14px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 7px !important;
+    padding-right: 20px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 20% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 70% !important;
+    object-fit: contain !important;
+    margin-left: 25px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 48px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 16% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 70% !important;
+    object-fit: contain !important;
+    margin-left: 25px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 48px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 16% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 66% !important;
+    object-fit: contain !important;
+    margin-left: 46px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 48px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1500px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 16% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 66% !important;
+    object-fit: contain !important;
+    margin-left: 46px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 48px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 16% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 66% !important;
+    object-fit: contain !important;
+    margin-left: 46px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 48px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+  .inner-div {
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%) !important;
+    height: 80px !important;
+    width: 90% !important;
+    border-radius: 60px !important;
+  }
+
+  .logo-div {
+    background-color: #fff !important;
+    width: 14% !important;
+    height: 80px !important;
+    border-top-left-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+    margin-left: -1px !important;
+  }
+
+  .logo {
+    width: 65% !important;
+    object-fit: contain !important;
+    margin-left: 46px !important;
+  }
+
+  .text-div {
+    margin-top: -65px !important;
+    margin-left: 125px !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    justify-content: end !;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    gap: 62px !important;
+    font-size: 30px !important;
+    font-family: 'Philosopher', sans-serif !important;
+    margin-top: 0px !important;
+    padding-right: 61px !important;
+  }
+
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    font-family: 'Philosopher', sans-serif !important;
+  }
+}

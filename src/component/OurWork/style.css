@@ -1,0 +1,477 @@
+.our-work-container{
+    margin-top: 50px !important;
+    padding-left: 202px !important;
+    padding-right: 201px !important;
+}
+
+.our-work-h3{
+    font-size: 80px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.our-work-card-text-no{
+    display: flex;
+    gap: 30px;
+}
+
+.our-work-card-text{
+    box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 50px !important;
+}
+.our-work-grid-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px !important;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.our-work-grid-card:hover {
+    transform: scale(1.05);
+}
+
+.our-work-card{
+    width: 80%;
+}
+.our-work-card-text{
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center
+}
+.our-work-card-h5-no{
+    color: #E67940;
+    font-size: 40px ;
+    font-weight: bold;
+}
+
+.our-work-card-h5{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.our-work-card-content-text{
+    padding: 33px !important;
+    color: #000000 !important;
+    font-size: 27px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+@media screen and (max-width: 600px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-h3 {
+        font-size: 30px !important;
+        color: #000000 !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+        margin-bottom: 22px !important;
+    }
+
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 40px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+
+    .our-work-card-content-text {
+        padding: 5px !important;
+        color: #000000 !important;
+        font-size: 19px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-h3 {
+        font-size: 30px !important;
+        color: #000000 !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+        margin-bottom: 22px !important;
+    }
+
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 53px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+
+    }
+
+    .our-work-card-content-text {
+        padding: 5px !important;
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-h3 {
+        font-size: 30px !important;
+        color: #000000 !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+        margin-bottom: 22px !important;
+    }
+
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 53px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+
+    }
+
+    .our-work-card-content-text {
+        padding: 5px !important;
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 53px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+    }
+    .our-work-card-content-text {
+        padding: 5px !important;
+        color: #000000 !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 53px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+    }
+    .our-work-card-content-text {
+        padding: 5px !important;
+        color: #000000 !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 60px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+    }
+    .our-work-card-content-text {
+        padding: 10px !important;
+        color: #000000 !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 60px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+    }
+    .our-work-card-content-text {
+        padding: 10px !important;
+        color: #000000 !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+    .our-work-container {
+        margin-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .our-work-grid-card {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 35px !important;
+    }
+    .our-work-card {
+        width: 80% !important;
+    }
+    .our-work-card-text-no {
+        display: flex !important;
+        gap: 30px !important;
+    }
+    .our-work-card-h5-no {
+        color: #E67940 !important;
+        font-size: 60px !important;
+        font-weight: bold !important;
+    }
+    .our-work-card-h5 {
+        color: #000000 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        margin-top: 18px !important;
+    }
+    .our-work-card-content-text {
+        padding: 10px !important;
+        color: #000000 !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+    }
+    .our-work-card-text {
+        box-shadow: 3.8px 7.7px 7.7px hsl(0deg 0% 0% / 0.38) !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 50px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

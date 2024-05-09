@@ -1,0 +1,70 @@
+/* CustomMenuIcon.css */
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px; /* Width of the icon */
+    height: 18px; /* Height of the icon */
+  }
+  
+  .menu-icon .line {
+    background-color: rgb(255, 255, 255); /* Change color as needed */
+    height: 2px; /* Thickness of the lines */
+    transition: transform 0.3s, opacity 0.3s; /* Transition effects */
+  }
+  
+  .menu-icon.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px); /* First line rotates */
+  }
+  
+  .menu-icon.open .line:nth-child(2) {
+    opacity: 0; /* Hide the middle line when open */
+  }
+  
+  .menu-icon.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px); /* Third line rotates */
+  }
+  
+  .mobile-view{
+    display: flex;
+    justify-content: end;
+    margin-right: 12px;
+    margin-top: 14px;
+  }
+
+  .logo-mobile{
+    margin-top: -42px;
+    width: 24%;
+    height: 51px;
+    object-fit: contain;
+    /* margin-left: 52px; */ 
+    margin-left: -1px;
+    background-color: #fff;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .app-bar-mobile{
+    background: linear-gradient(to right, 
+    #E67940 0%, 
+    #FE5656 50%, 
+    #D4642A 100%) !important;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: none !important;
+  }
+.drawer-content{
+  background: linear-gradient(to right, 
+  #E67940 0%, 
+  #FE5656 50%, 
+  #D4642A 100%) !important;
+  padding:20px !important;
+  color: #fff;
+  font-size: 20px;
+}
+.nav-links-mobile{
+  color: #fff;
+  text-decoration: none;
+}

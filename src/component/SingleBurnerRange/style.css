@@ -1,0 +1,13 @@
+.single-burner-range-div{
+ padding: 50px !important;
+}
+
+.single-burner-range-card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px !important;
+}
+.single-burner-range-h3{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}

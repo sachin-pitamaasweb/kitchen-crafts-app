@@ -1,0 +1,15 @@
+.home{
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 325px) {
+    .home{
+        margin-top: 52px;
+    }
+}
+
+@media screen and (min-width:326px) and (max-width: 599px) {
+    .home{
+        margin-top: 52px;
+    }  
+}

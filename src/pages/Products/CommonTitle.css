@@ -1,0 +1,34 @@
+.common-title {
+    background: linear-gradient(to right,
+            #E67940 0%,
+            #FE5656 50%,
+            #D4642A 100%);
+    height: 100px;
+}
+
+.common-title-h5 {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 899px) {
+    .common-title {
+        background: linear-gradient(to right,
+                #E67940 0%,
+                #FE5656 50%,
+                #D4642A 100%);
+        height: 60px;
+    }
+
+    .common-title-h5 {
+        color: #fff;
+        font-weight: 900;
+        text-align: center;
+        margin: 10px;
+        font-size: 25px;
+    }
+}

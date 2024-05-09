@@ -1,0 +1,27 @@
+
+.feature-list-hr{
+    display: flex;
+    justify-content: center;
+}
+.feature-list-hr{
+    width: 95%;
+    /* border: 1px solid #000000; */
+
+}
+
+.feature-list{
+    display: flex;
+    justify-content: center;
+    gap:310px;
+}
+.feature-list-h5{
+    font-size: 30px;
+    color: #E67940;
+    font-weight: 600;
+}
+.feature-list-li{
+    font-size: 20px;
+}
+#feature-list-ul-id{
+    margin-top: 40px;
+}
