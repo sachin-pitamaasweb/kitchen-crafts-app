@@ -15,7 +15,7 @@ const BestSellersGrid = ({ title, items, className }) => {
                 <Grid item xs={12} className="best-seller-grid-text">
                     <Title title={title} />
                 </Grid>
-                <Grid container className="best-seller-grid-2" sapcing={2} data-aos="zoom-in" data-aos-duration="1000">
+                <Grid container className="best-seller-grid-2" sapcing={2} data-aos="zoom-in" >
                     <img src={require(`../../assets/BestSellersGrid/best.png`)} className="best-seller-bg-image-1" alt="stove-bg" />
                     {items.map((item, index) => (
                         <Grid
@@ -27,7 +27,7 @@ const BestSellersGrid = ({ title, items, className }) => {
                             sm={4}
                             className="best-seller-grid-3"
                         >
-                            <div className="best-seller-grid-images" data-aos="zoom-in" data-aos-duration="1000">
+                            <div className="best-seller-grid-images" data-aos="zoom-in" >
                                 {/* Display the item's image */}
                                <div className="best-seller-bg-image-div" >
                                <img

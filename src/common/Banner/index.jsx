@@ -10,8 +10,6 @@ const Banner = ({ slides, interval = null }) => {
                         src={slide.image}
                         alt={slide.alt || `Slide ${index + 1}`} 
                         style={{ width: "100%", objectFit: "cover" }} 
-                        data-aos="zoom-in"
-                        data-aos-duration="1000"
                     />
                 </Carousel.Item>
             ))}

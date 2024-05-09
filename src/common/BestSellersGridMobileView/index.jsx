@@ -82,7 +82,7 @@ const BestSellersGridMobileView = ({ title, items }) => {
                 marginTop: '20px'
               }}
               className='grid-item-mobile-view'
-              data-aos="zoom-in" data-aos-duration="1000"
+              data-aos="zoom-in" 
             >
               <Box style={itemStyle}>
                 {renderItems(title, index, item)}

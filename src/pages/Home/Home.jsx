@@ -26,9 +26,9 @@ const Home = () => {
                 <Banner
                     slides={homeBannerSlides}
                 />
-                 <PremiumGasStovePromo />
-                 <DomesticFeatures />
-                 <DomesticBestSeller />
+                <PremiumGasStovePromo />
+                <DomesticFeatures />
+                <DomesticBestSeller />
                 <CommercialBestSellers />
                 <CommercialFeatures />
                 <OurWork />

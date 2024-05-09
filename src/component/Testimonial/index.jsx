@@ -62,7 +62,7 @@ const Testimonial = () => {
                         <OwlCarousel id="customer-testimonoals" className="owl-carousel owl-theme" {...options}>
                             {
                                 testiMonials.length === 0 ?
-                                    <div className="item" key={testiMonials.name} data-aos="zoom-in" data-aos-duration="1000">
+                                    <div className="item" key={testiMonials.name} data-aos="zoom-in" >
                                         <div className="shadow-effect">
                                             <img className="img-circle" src={require('../../assets/Testimonial/test-2.png')} alt="testomonial" />
                                             <h5 className="testomonial-card-h5-name">Deepika</h5>
@@ -72,7 +72,7 @@ const Testimonial = () => {
                                     </div> :
                                     testiMonials.map(testiMonialDetail => {
                                         return (
-                                            <div className="item" key={testiMonialDetail.name} data-aos="zoom-in" data-aos-duration="1000">
+                                            <div className="item" key={testiMonialDetail.name} data-aos="zoom-in" >
                                                 <div className="shadow-effect">
                                                     <img className="img-circle" src={testiMonialDetail.img} alt="testomonial" />
                                                   

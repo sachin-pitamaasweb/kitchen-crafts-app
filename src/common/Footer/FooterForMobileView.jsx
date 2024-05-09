@@ -22,7 +22,7 @@ const FooterForMobileView = () => {
                         <div className="footer-logo-mobile">
                             <img src={require('../../assets/logo/logo.png')} alt="logo" className="footer-logo-mobile-img" style={{ width: '100%' }} />
                             {isAboutPage && (
-                        <div className="footer-image-for-mobile" data-aos="zoom-in" data-aos-duration="1000">
+                        <div className="footer-image-for-mobile" data-aos="zoom-in" >
                             <img src={require("../../assets/About/our-mission-footer.png")} alt="footer" className="our-mission-footer-mobile" />
                         </div>
                     )}

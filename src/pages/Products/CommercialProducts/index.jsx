@@ -52,7 +52,7 @@ const CommercialProducts = () => {
                             md={gridConfig.md}
                             lg={gridConfig.lg}
                             className="commercial-products-grid"
-                            data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos="zoom-in" 
                         >
                             <Card className="commercial-products-card">
                                 <CardContent className="commercial-products-card-content">
@@ -64,7 +64,7 @@ const CommercialProducts = () => {
                                             <div
                                                 key={productIndex}
                                                 className="commercial-products-card-image"
-                                                data-aos="zoom-in" data-aos-duration="1000"
+                                                data-aos="zoom-in" 
                                             >
                                                 <img
                                                     src={product.image}
@@ -82,10 +82,10 @@ const CommercialProducts = () => {
                         </Grid>
                     );
                 })}
-                <Grid item xs={12} sm={12} md={4} lg={4} className="commercial-products-grid" data-aos="zoom-in" data-aos-duration="1000">
+                <Grid item xs={12} sm={12} md={4} lg={4} className="commercial-products-grid" data-aos="zoom-in" >
                     <Card className="commercial-products-card">
                         <CardContent className="commercial-products-card-content-explore">
-                            <div className="commercial-products-card-content-div" data-aos="zoom-in" data-aos-duration="1000">
+                            <div className="commercial-products-card-content-div" data-aos="zoom-in" >
                                 <h4 className="commercial-products-card-h4">Explore <br />Domestic Range</h4>
                                 <img
                                     src={require("../../../assets/Products/CommercialRange/arrow.png")}

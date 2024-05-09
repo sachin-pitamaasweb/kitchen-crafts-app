@@ -17,7 +17,7 @@ const QuickLinks = ({ mobileView }) => {
                 <div
                     className="quick-links-div"
                     data-aos="zoom-in"
-                    data-aos-duration="1000"
+                    
                 >
                     {
                         navLinks.map((item, index) => (

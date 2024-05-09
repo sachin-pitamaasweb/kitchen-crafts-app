@@ -40,7 +40,7 @@ const ReflectoRange = () => {
         <>
             <Grid container spacing={2} className="the-spectra-range-container">
                 <Grid item xs={12} sm={12} md={12} lg={12} className="domestic-products-grid">
-                    <Card className="domestic-products-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <Card className="domestic-products-card" data-aos="zoom-in" >
                         <CardContent className="domestic-products-card-content">
                             <h5 className="domestic-products-card-h5">
                                 The Reflecto Range
@@ -52,14 +52,14 @@ const ReflectoRange = () => {
                                 justifyContent="center"
                                 alignItems="center"
                                 className="the-spectra-range"
-                                data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos="zoom-in" 
                             >
 
                                 {
                                     ReflectoRange.map((item, index) => {
                                         return (
                                             <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index} data-aos="zoom-in" data-aos-duration="1000">
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index} data-aos="zoom-in" >
                                                     <img
                                                         src={item.img}
                                                         alt={item.alt || 'reflecto-range'}

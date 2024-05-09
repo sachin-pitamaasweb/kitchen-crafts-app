@@ -20,7 +20,7 @@ const SocialIcons = ({ mobileView }) => {
             }
             key={index}
             data-aos="zoom-in"
-            data-aos-duration="1000"
+            
           />
         ))}
       </div>

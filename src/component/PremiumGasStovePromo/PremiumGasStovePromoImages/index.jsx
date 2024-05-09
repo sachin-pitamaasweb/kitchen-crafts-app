@@ -24,7 +24,7 @@ const PremiumGasStovePromoImages = () => {
               className="premium-gas-stove-promo-images"
               alt={`stove ${index + 1}`}
               data-aos="zoom-in"
-              data-aos-duration="1000"
+              
             />
           </div>
         </Grid>

@@ -18,7 +18,6 @@ const Banners = ({ imgUrl }) => {
                         src={imgUrl}
                         alt="banners"
                         className="banners-image"
-                        loading="lazy"
                     />
                 </Grid>
             </Grid>
