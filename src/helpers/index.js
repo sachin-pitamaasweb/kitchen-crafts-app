@@ -15,17 +15,17 @@ export const homeBannerSlides = [
 
 export const DomesticFeaturesItems = [
     {
-        image: require('../assets/Domestic/stove-1.png'),
+        image: require('../assets/Domestic/img-1.png'),
         alt: 'Slide 1',
         text: 'Heavy Burner',
     },
     {
-        image: require('../assets/Domestic/stove-2.png'),
+        image: require('../assets/Domestic/img-2.png'),
         alt: 'Slide 1',
         text: 'Flexible Knob',
     },
     {
-        image: require('../assets/Domestic/stove-3.png'),
+        image: require('../assets/Domestic/img-3.png'),
         alt: 'Slide 1',
         text: 'Rubber Legs for Better Stability',
     }
@@ -33,17 +33,17 @@ export const DomesticFeaturesItems = [
 
 export const CommercialFeaturesItems = [
     {
-        image: require('../assets/Commercial/stove-1.png'),
+        image: require('../assets/Commercial/img-1.png'),
         alt: 'Slide 1',
         text: 'Efficient design for better cooking',
     },
     {
-        image: require('../assets/Commercial/stove-2.png'),
+        image: require('../assets/Commercial/img-2.png'),
         alt: 'Slide 1',
         text: 'Top grade Stainless Steel',
     },
     {
-        image: require('../assets/Commercial/stove-3.png'),
+        image: require('../assets/Commercial/img-3.png'),
         alt: 'Slide 1',
         text: 'Easy installation and working',
     }

@@ -17,13 +17,13 @@ const BestSellersGridMobileView = ({ title, items }) => {
     padding: '16px',
     textAlign: 'center',
     borderRadius: '50%',
-    width: '266px',
-    height: '266px',
+    width: '221px',
+    height: '221px',
   };
 
   const buttonStyle = {
-    width: '100px',
-    height: '40px',
+    width: '95px',
+    height: '30px',
     borderRadius: '30px',
     fontSize: '12px',
     backgroundColor: '#fff',

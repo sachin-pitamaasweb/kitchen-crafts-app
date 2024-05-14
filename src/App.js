@@ -37,8 +37,8 @@ function App() {
       <Suspense fallback={<><Loading /></>}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products/domestic" element={<DomesticProducts />} />
-          <Route path="/products/commercial" element={<CommercialProducts />} />
+          <Route path="/domestic" element={<DomesticProducts />} />
+          <Route path="/commercial" element={<CommercialProducts />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

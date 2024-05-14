@@ -31,18 +31,15 @@
 }
 
 .premium-gas-stove-promo-button {
-    background: linear-gradient(to right,
-            #E67940 0%,
-            #FE5656 50%,
-            #D4642A 100%);
+    background: linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%);
     color: #fff;
-    font-size: 45px;
-    width: 240px;
-    height: 80px;
+    font-size: 29px;
+    width: 200px;
+    height: 62px;
     border: none;
     border-radius: 45px;
-    margin-top: 0px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 20px;
 }
 
 .premium-gas-stove-promo-button-div {
@@ -105,7 +102,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -159,7 +156,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -211,7 +208,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -263,7 +260,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -315,7 +312,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -367,7 +364,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -420,7 +417,7 @@
         height: 42px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -473,7 +470,7 @@
         height: 52px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -525,7 +522,7 @@
         height: 52px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: 0px !important;
+        margin-top: 125px !important;
         margin-bottom: 50px !important;
     }
 }
@@ -565,7 +562,7 @@
         height: 50px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: -64px !important;
+        margin-top: 125px !important;
         margin-bottom: 70px !important;
     }
 
@@ -610,7 +607,7 @@
         height: 50px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: -64px !important;
+        margin-top: 125px !important;
         margin-bottom: 70px !important;
     }
 
@@ -656,7 +653,7 @@
         height: 50px !important;
         border: none !important;
         border-radius: 45px !important;
-        margin-top: -64px !important;
+        margin-top: 125px !important;
         margin-bottom: 70px !important;
     }
 

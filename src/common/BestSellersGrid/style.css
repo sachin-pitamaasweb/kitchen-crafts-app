@@ -67,12 +67,12 @@
 }
 
 .best-seller-button {
-    width: 180px;
-    height: 62px;
-    border-radius: 30px;
-    font-size: 28px;
-    background-color: #fff;
-    color: #333;
+    width: 150px !important;
+    height: 43px !important;
+    border-radius: 30px !important;
+    font-size: 18px !important;
+    background-color: #fff !important;
+    color: #333 !important;
     border: 1px solid #E67940 !important;
     cursor: pointer !important;
 }
@@ -410,19 +410,19 @@
 
     .best-seller-grid-images {
         margin-left: 30px !important;
-        width: 295px !important;
-        height: 295px !important;
+        width: 230px !important;
+        height: 230px !important;
         background: #fff !important;
-        margin-top: -263px !important;
+        margin-top: -212px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
     }
 
     .best-seller-round-image-1 {
-        margin-top: -7px !important;
-        margin-left: 4px !important;
         width: 100% !important;
+        margin-top: 24px !important;
+        height: 190px;
     }
 
     .best-seller-text-div {
@@ -444,10 +444,10 @@
     }
 
     .best-seller-button {
-        width: 102px !important;
-        height: 34px !important;
+        width: 100px !important;
+        height: 30px !important;
         border-radius: 30px !important;
-        font-size: 14px !important;
+        font-size: 12px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -725,14 +725,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 24px !important;
+        height: 255px !important;
     }
 
     .best-seller-grid-images {
-        margin-left: 30px !important;
-        width: 385px !important;
-        height: 385px !important;
+        margin-left: 75px !important;
+        width: 300px !important;
+        height: 300px !important;
         background: #fff !important;
-        margin-top: -364px !important;
+        margin-top: -274px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -763,10 +764,10 @@
     }
 
     .best-seller-button {
-        width: 114px !important;
-        height: 44px !important;
+        width: 100px !important;
+        height: 29px !important;
         border-radius: 30px !important;
-        font-size: 17px !important;
+        font-size: 13px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -789,14 +790,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 24px !important;
+        height: 255px !important;
     }
 
     .best-seller-grid-images {
-        margin-left: 30px !important;
-        width: 385px !important;
-        height: 385px !important;
+        margin-left: 75px !important;
+        width: 300px !important;
+        height: 300px !important;
         background: #fff !important;
-        margin-top: -364px !important;
+        margin-top: -274px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -827,10 +829,10 @@
     }
 
     .best-seller-button {
-        width: 114px !important;
-        height: 44px !important;
+        width: 100px !important;
+        height: 29px !important;
         border-radius: 30px !important;
-        font-size: 17px !important;
+        font-size: 13px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -853,14 +855,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 24px !important;
+        height: 255px !important;
     }
 
     .best-seller-grid-images {
-        margin-left: 30px !important;
-        width: 420px !important;
-        height: 420px !important;
+        margin-left: 120px !important;
+        width: 300px !important;
+        height: 300px !important;
         background: #fff !important;
-        margin-top: -395px !important;
+        margin-top: -274px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -891,10 +894,10 @@
     }
 
     .best-seller-button {
-        width: 114px !important;
-        height: 44px !important;
+        width: 100px !important;
+        height: 29px !important;
         border-radius: 30px !important;
-        font-size: 17px !important;
+        font-size: 13px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -917,14 +920,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 24px !important;
+        height: 255px !important;
     }
 
     .best-seller-grid-images {
-        margin-left: 30px !important;
-        width: 420px !important;
-        height: 420px !important;
+        margin-left: 120px !important;
+        width: 300px !important;
+        height: 300px !important;
         background: #fff !important;
-        margin-top: -395px !important;
+        margin-top: -274px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -955,10 +959,10 @@
     }
 
     .best-seller-button {
-        width: 114px !important;
-        height: 44px !important;
+        width: 100px !important;
+        height: 29px !important;
         border-radius: 30px !important;
-        font-size: 17px !important;
+        font-size: 13px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -981,14 +985,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 24px !important;
+        height: 255px !important;
     }
 
     .best-seller-grid-images {
-        margin-left: 30px !important;
-        width: 500px !important;
-        height: 500px !important;
+        margin-left: 150px !important;
+        width: 300px !important;
+        height: 300px !important;
         background: #fff !important;
-        margin-top: -471px !important;
+        margin-top: -274px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -1019,10 +1024,10 @@
     }
 
     .best-seller-button {
-        width: 114px !important;
-        height: 44px !important;
+        width: 100px !important;
+        height: 29px !important;
         border-radius: 30px !important;
-        font-size: 17px !important;
+        font-size: 13px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;
@@ -1056,14 +1061,15 @@
     .best-seller-bg-image-1 {
         width: 100% !important;
         margin-top: 100px !important;
+        height: 350px !important;
     }
     
     .best-seller-grid-images {
-        margin-left: 51px !important;
-        width: 510px !important;
-        height: 510px !important;
+        margin-left: 120px !important;
+        width: 375px !important;
+        height: 375px !important;
         background: #fff !important;
-        margin-top: -498px !important;
+        margin-top: -375px !important;
         border-radius: 50% !important;
         border-style: dashed !important;
         position: absolute !important;
@@ -1098,10 +1104,10 @@
     }
     
     .best-seller-button {
-        width: 180px !important;
-        height: 62px !important;
+        width: 150px !important;
+        height: 43px !important;
         border-radius: 30px !important;
-        font-size: 28px !important;
+        font-size: 18px !important;
         background-color: #fff !important;
         color: #333 !important;
         border: 1px solid #E67940 !important;

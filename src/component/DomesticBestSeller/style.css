@@ -32,7 +32,9 @@
         font-size: 22px !important;
         color: #000000 !important;
         font-weight: 400 !important;
-        padding: 30px !important;
-        margin-top: 61px !important;
+        /* padding: 30px !important; */
+        padding-left: 140px !important;
+        padding-right: 140px !important;
+        margin-top: 80px !important;
     }
 }

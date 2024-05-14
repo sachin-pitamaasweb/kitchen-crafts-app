@@ -1,7 +1,20 @@
-.premium-gas-stove-promo-images{
+/* .premium-gas-stove-promo-images{
     width: 100%;
     object-fit: contain;
-}
+} */
 .premium-gas-stove-promo-images-container{
-    margin-top: 50px
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.premium-gas-stove-promo-images-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}
+.premium-gas-stove-promo-images-name{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
 }

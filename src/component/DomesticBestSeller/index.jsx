@@ -38,8 +38,10 @@ const BestSeller = () => {
 
             <div className="domestic-best-seller-text">
                 <p className={!matches ? "domestic-best-seller-p-mobile" : "domestic-best-seller-p"}>
-                    "Transform your kitchen with innovative gas stoves, blending sleek design with unparalleled performance.
-                    Elevate your cooking experience and unleash your culinary creativity. Welcome to a new era of precision and perfection."
+                    "Transform your kitchen with innovative gas stoves,
+                    blending sleek design with unparalleled performance.
+                    Elevate your cooking experience and unleash your culinary creativity.
+                    Welcome to a new era of precision and perfection."
                 </p>
             </div>
         </>

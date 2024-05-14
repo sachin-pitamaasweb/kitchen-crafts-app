@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 //MUI
 import { Grid } from '@mui/material';
 
@@ -9,6 +10,11 @@ import PremiumGasStovePromoImages from "./PremiumGasStovePromoImages";
 import './style.css';
 
 const PremiumGasStovePromo = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        navigate("/domestic");
+    }
     return (
         <>
             <Grid container className="premium-gas-stove-promo" spacing={2}>
@@ -24,12 +30,12 @@ const PremiumGasStovePromo = () => {
                         <img src={require("../../assets/PremiumGasStovePromo/text.png")} alt="text" className="premium-gas-stove-promo-image-1" />
                     </div>
                 </Grid>
+                <PremiumGasStovePromoImages />
                 <Grid item xs={12} className="premium-gas-stove-promo-button-div">
-                    <button className="premium-gas-stove-promo-button" data-aos="zoom-in" data-aos-duration="500" >
+                    <button className="premium-gas-stove-promo-button" data-aos="zoom-in" data-aos-duration="500" onClick={handleClick}>
                         View All
                     </button>
                 </Grid>
-                <PremiumGasStovePromoImages />
             </Grid>
         </>
     )

@@ -18,15 +18,15 @@ const Testimonial = () => {
             img: require('../../assets/Testimonial/test-1.png'),
         },
         {
-            name: 'Deepika',
+            name: 'Hotel Anant Inn',
             stars: 5,
-            description: 'I love the design of KITCHER CRAFT; where style meets functionality, making cooking a breeze.',
+            description: 'Very satisfied with the end to end Kitchen setup solution provided by KitchenCraft. On time and good quality kitchen equipment received with complete on-site installation and timelt handover of the site to us.',
             img: require('../../assets/Testimonial/test-2.png'),
         },
         {
-            name: 'Priya',
+            name: 'Hitchki, Jaunpur',
             stars: 5,
-            description: "I'm obsessed with KITCHEN CRAFT's design. It's like having a stylish chef in my kitchen, making cooking feel like a fun adventure every time!",
+            description: "Best Commercial kitchen setup in Uttar Pradesh. We got chaat counters made along with cooking range equipments and the quality really speaks for itself.",
             img: require('../../assets/Testimonial/test-3.png'),
         },
     ]
@@ -64,7 +64,7 @@ const Testimonial = () => {
                                 testiMonials.length === 0 ?
                                     <div className="item" key={testiMonials.name}  >
                                         <div className="shadow-effect">
-                                            <img className="img-circle" src={require('../../assets/Testimonial/test-2.png')} alt="testomonial" />
+                                            {/* <img className="img-circle" src={require('../../assets/Testimonial/test-2.png')} alt="testomonial" /> */}
                                             <h5 className="testomonial-card-h5-name">Deepika</h5>
                                             <Rating name="read-only" value={5} readOnly className="testomonial-card-rating" />
                                             <p className='testomonial-card-p'>I love the design of KITCHER CRAFT; where style meets functionality, making cooking a breeze.</p>
@@ -74,8 +74,7 @@ const Testimonial = () => {
                                         return (
                                             <div className="item" key={testiMonialDetail.name}  >
                                                 <div className="shadow-effect">
-                                                    <img className="img-circle" src={testiMonialDetail.img} alt="testomonial" />
-                                                  
+                                                    {/* <img className="img-circle" src={testiMonialDetail.img} alt="testomonial" /> */}
                                                     <h5 className="testomonial-card-h5-name">{testiMonialDetail.name}</h5>
                                                     <Rating name="read-only" value={testiMonialDetail.stars} readOnly className="testomonial-card-rating" />
                                                     <p className='testomonial-card-p'>{testiMonialDetail.description}</p>
