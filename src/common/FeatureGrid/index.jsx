@@ -10,7 +10,7 @@ import './style.css';
 const FeatureGrid = ({title, items}) => {
 
         const sliderSettings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
