@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.de3e9247.css",
-    "main.js": "/static/js/main.485e3e33.js",
+    "main.js": "/static/js/main.8709571a.js",
     "static/css/3.78acb93e.chunk.css": "/static/css/3.78acb93e.chunk.css",
-    "static/js/3.85280af2.chunk.js": "/static/js/3.85280af2.chunk.js",
+    "static/js/3.f274b088.chunk.js": "/static/js/3.f274b088.chunk.js",
     "static/css/710.02121744.chunk.css": "/static/css/710.02121744.chunk.css",
     "static/js/710.154c4c5b.chunk.js": "/static/js/710.154c4c5b.chunk.js",
     "static/css/67.8b69c132.chunk.css": "/static/css/67.8b69c132.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/contact-banner.svg": "/static/media/contact-banner.3507204148ea11a79d1e013f3b0afcc0.svg",
     "static/media/gas-stove.png": "/static/media/gas-stove.3aacc513327f8ffb34d7.png",
     "static/media/product-banner.svg": "/static/media/product-banner.6aba6fbeabbf10f1d8414771d45a97b4.svg",
+    "static/media/banner-1.jpg": "/static/media/banner-1.4b9eb3e25339be8f6ae2.jpg",
     "static/media/best.png": "/static/media/best.8d49ec0deee13f777f23.png",
     "static/media/test-2.png": "/static/media/test-2.b5fc7daac5d7f4c84a6a.png",
     "static/media/stove-1.png": "/static/media/stove-1.2baf9104cfec2f8e2cae.png",
@@ -63,9 +64,9 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.de3e9247.css.map": "/static/css/main.de3e9247.css.map",
-    "main.485e3e33.js.map": "/static/js/main.485e3e33.js.map",
+    "main.8709571a.js.map": "/static/js/main.8709571a.js.map",
     "3.78acb93e.chunk.css.map": "/static/css/3.78acb93e.chunk.css.map",
-    "3.85280af2.chunk.js.map": "/static/js/3.85280af2.chunk.js.map",
+    "3.f274b088.chunk.js.map": "/static/js/3.f274b088.chunk.js.map",
     "710.02121744.chunk.css.map": "/static/css/710.02121744.chunk.css.map",
     "710.154c4c5b.chunk.js.map": "/static/js/710.154c4c5b.chunk.js.map",
     "67.8b69c132.chunk.css.map": "/static/css/67.8b69c132.chunk.css.map",
@@ -81,6 +82,6 @@
   },
   "entrypoints": [
     "static/css/main.de3e9247.css",
-    "static/js/main.485e3e33.js"
+    "static/js/main.8709571a.js"
   ]
 }

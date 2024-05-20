@@ -1,11 +1,14 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-const Banner = ({ slides, interval = null }) => {
+const Banner = ({ slides, interval = 3000 }) => {
     return (
         <Carousel>
             {slides.map((slide, index) => (
-                <Carousel.Item key={index} interval={interval} >
+                <Carousel.Item key={index}
+                 interval={interval} 
+
+                 >
                     <img
                         src={slide.image}
                         alt={slide.alt || `Slide ${index + 1}`} 

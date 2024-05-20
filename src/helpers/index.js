@@ -10,6 +10,11 @@ export const homeBannerSlides = [
         image: require('../assets/banner/banner.png'),
         alt: 'Slide 1',
         interval: 1000,
+    },
+    {
+        image: require('../assets/banner/banner-1.jpg'),
+        alt: 'Slide 1',
+        interval: 1000,
     }
 ];
 
