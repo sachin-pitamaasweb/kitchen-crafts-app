@@ -60,6 +60,15 @@
   font-weight: 400;
   font-size: 28px;
   font-family: 'Philosopher', sans-serif !important;
+  transition: transform 0.3s ease;
+}
+
+.nav-item {
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
 }
 
 .active-menu {

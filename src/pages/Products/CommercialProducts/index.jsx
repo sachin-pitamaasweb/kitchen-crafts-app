@@ -32,7 +32,7 @@ const CommercialProducts = () => {
     const navigate = useNavigate();  
 
     const handleNavigateDomestic = () => {
-        navigate("/products/domestic");
+        navigate("/domestic");
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
     return (

@@ -55,7 +55,7 @@ const Header = () => {
                                     <nav>
                                         <ul className='nav-links'>
                                             {navData.map((navItem, index) => (
-                                                <li key={index}>
+                                                <li key={index} className='nav-item'>
                                                     <Link to={navItem.path} className='active' onClick={handleClick}>
                                                         {navItem.label}
                                                     </Link>
