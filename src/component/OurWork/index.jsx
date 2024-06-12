@@ -15,7 +15,7 @@ const OurWork = () => {
         {
             no: '01',
             title: "CONSULTANT & MANUFACTURER",
-            desc: ' Not just manufacturer and consultant, you can also interact with professionals in the kitchen and restaurant equipment business at Prestair Systems. We strive for excellence in everything we do.'
+            desc: ' Not just manufacturer and consultant, you can also interact with professionals in the kitchen and restaurant equipment business at KitchenCraft. We strive for excellence in everything we do.'
         },
         {
             no: '02',

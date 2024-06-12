@@ -11,19 +11,19 @@ const SingleBurnerRange = () => {
 
     const SingleBurnerRange = [
         {
-            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/kc-1.png"),
+            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/img-1.png"),
             name: "KC-00 Single(L)",
-            alt: "single-burner-range",
+            alt: "KC-00 Single(L)",
         },
         {
-            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/kc-2.png"),
+            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/img-2.png"),
             name: "KC-101 Prince",
-            alt: "single-burner-range",
+            alt: "KC-101 Princee",
         },
         {
-            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/kc-3.png"),
+            img: require("../../assets/Products/DomesticRange/SingleBurnerRange/img-3.png"),
             name: "KC-102 Prestige",
-            alt: "single-burner-range",
+            alt: "KC-102 Prestige",
         }
     ]
     return (
@@ -40,17 +40,29 @@ const SingleBurnerRange = () => {
                                     SingleBurnerRange.map((item, index) => {
                                         return (
                                             <>
-                                                <div className="domestic-products-card-image-div" key={index}>
-                                                    <img
-                                                        src={item.img}
-                                                        alt={item.alt || item.name}
-                                                        className="single-burner-range-image"
-                                                        data-aos="zoom-in" data-aos-duration="500"
-                                                    />
-                                                    <h6 className="domestic-products-name-h6" data-aos="zoom-in" data-aos-duration="500">
-                                                       {item.name}
-                                                    </h6>
-                                                </div>
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={item.id}
+                                                    sx={{
+                                                        transition: '0.3s',
+                                                        '&:hover': {
+                                                            transform: 'scale(1.03)',
+                                                            boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                        },
+                                                    }}
+                                                >
+                                                    <div className="domestic-products-card-image-div" key={index}>
+                                                        <div className="domestic-products-card-image-div-1">
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.alt || item.name}
+                                                                className="single-burner-range-image"
+                                                                data-aos="zoom-in" data-aos-duration="500"
+                                                            />
+                                                        </div>
+                                                        <h6 className="domestic-products-name-h6" data-aos="zoom-in" data-aos-duration="500">
+                                                            {item.name}
+                                                        </h6>
+                                                    </div>
+                                                </Grid>
                                             </>
                                         )
                                     })
@@ -59,7 +71,14 @@ const SingleBurnerRange = () => {
                             <Hr />
                             <FeatureList
                                 title="Features"
-                                features={["Stainless Steel Body", "Brass Burner Set", "Electroplated Burner Set", "2 MS Powder Coated Pan Support", "Brass Burner Set", "Drip Tray"]}
+                                features={[
+                                    "Stainless Steel Body, Mini-500gm",
+                                    "Cast Iron Burner-Painted",
+                                    "MS Powder Coated Pan Support",
+                                    "Skid Free Rubber Legs For Better Stability",
+                                    "Strong Bakelite Knob",
+                                    "Complies with IS 4246 standards."
+                                ]}
                             />
                         </CardContent>
                     </Card>

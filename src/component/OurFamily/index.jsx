@@ -12,7 +12,7 @@ const OurFamily = () => {
 
     const OurFamilyItems = [
         {
-            no: 200,
+            no: '100+',
             text: "Total Products"
         },
         {
@@ -20,7 +20,7 @@ const OurFamily = () => {
             text: "Total Family"
         },
         {
-            no: 100000,
+            no: "40000+",
             text: "Infrastructure (Sq.Km.)"
         },
         {
@@ -39,7 +39,7 @@ const OurFamily = () => {
                         <Grid item xs={12} sm={12} lg={3} md={3} key={index} className="our-family-grid-images">
                             <div className="our-family" data-aos="zoom-in" data-aos-duration="500">
                                 <h5 className="our-family-h5-no">
-                                    {item.no}
+                                    {item.no} 
                                 </h5>
                                 <h5 className="our-family-h5-text">
                                     {item.text}

@@ -11,24 +11,24 @@ const SpectraRange = () => {
 
     const SpectraRange = [
         {
-            img: require("../../assets/Products/DomesticRange/TheSpectraRange/kc-1.png"),
-            name: "KC-2009 Junior",
-            alt: "spectra-range",
+            img: require("../../assets/Products/DomesticRange/TheSpectraRange/img-1.png"),
+            name: "KC-1006",
+            alt: "KC-1006",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheSpectraRange/kc-2.png"),
-            name: "KC-3009 Junior",
-            alt: "spectra-range",
+            img: require("../../assets/Products/DomesticRange/TheSpectraRange/img-2.png"),
+            name: "KC-2006",
+            alt: "KC-2006",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheSpectraRange/kc-3.png"),
-            name: "KC-4009 Junior",
-            alt: "spectra-range",
+            img: require("../../assets/Products/DomesticRange/TheSpectraRange/img-3.png"),
+            name: "KC-3006",
+            alt: "KC-3006",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheSpectraRange/kc-4.png"),
-            name: "KC-5009 Junior",
-            alt: "spectra-range",
+            img: require("../../assets/Products/DomesticRange/TheSpectraRange/img-4.png"),
+            name: "KC-4006",
+            alt: "KC-4006",
         },
     ];
 
@@ -53,25 +53,32 @@ const SpectraRange = () => {
                                     SpectraRange.map((item, index) => {
                                         return (
                                             <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index} 
-                                                sx={{
-                                                    transition: '0.3s',
-                                                    '&:hover': {
-                                                      transform: 'scale(1.03)',
-                                                      boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
-                                                    },
-                                                 }}
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index}
+                                                    sx={{
+                                                        transition: '0.3s',
+                                                        '&:hover': {
+                                                            transform: 'scale(1.03)',
+                                                            boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                        },
+                                                    }}
                                                 >
-                                                  <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
-                                                  <img
-                                                        src={item.img}
-                                                        alt={item.alt || "spectra-range"}
-                                                        className="single-burner-range-image"
-                                                    />
-                                                    <h6 className="domestic-products-name-h6">
-                                                        {item.name}
-                                                    </h6>
-                                                  </div>
+                                                    <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                        <div className="single-burner-range-image-div-1"
+                                                            style={{
+                                                                display: "flex",
+                                                                justifyContent: "center",
+                                                            }}
+                                                        >
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.alt || "spectra-range"}
+                                                                className="single-burner-range-image"
+                                                            />
+                                                        </div>
+                                                        <h6 className="domestic-products-name-h6">
+                                                            {item.name}
+                                                        </h6>
+                                                    </div>
                                                 </Grid>
                                             </>
                                         )
@@ -82,12 +89,12 @@ const SpectraRange = () => {
                             <FeatureList
                                 title={'Features'}
                                 features={[
-                                    "Stainless Steel Body",
-                                    "Brass Burner Set",
-                                    "High Efficiency Brass Burner",
-                                    "Sturdy Pan Support",
-                                    "Perfect Blue Flame",
-                                    "Slim Design",
+                                    "HEAVY BRASS BURNERS",
+                                    "JOINTLESS STAINLESS STEEL BODY",
+                                    "SMOOTH OPERATING KNOBS",
+                                    "ROUND EURO COATED GRID",
+                                    "EASY CLEANING & MAINTENANCE",
+                                    "MANUAL IGNITION",
                                 ]}
                             />
                         </CardContent>

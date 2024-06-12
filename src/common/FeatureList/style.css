@@ -6,7 +6,6 @@
 .feature-list-hr {
     width: 95%;
     /* border: 1px solid #000000; */
-
 }
 
 .feature-list {
@@ -18,11 +17,12 @@
 .feature-list-h5 {
     font-size: 30px;
     color: #E67940;
-    font-weight: 600;
+    font-weight: 700 !important;
 }
 
 .feature-list-li {
     font-size: 20px;
+    font-weight: 800 !important;
 }
 
 #feature-list-ul-id {
@@ -35,4 +35,41 @@
 
 .domestic-products-features-li:hover {
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+    
+.feature-list-hr {
+    width: 95%;
+    /* border: 1px solid #000000; */
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 310px;
+}
+
+.feature-list-h5 {
+    font-size: 30px;
+    color: #E67940;
+    font-weight: 700 !important;
+}
+
+.feature-list-li {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+
+#feature-list-ul-id {
+    margin-top: 40px;
+}
+
+.domestic-products-features-li {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.domestic-products-features-li:hover {
+    transform: scale(1.05);
+}
 }

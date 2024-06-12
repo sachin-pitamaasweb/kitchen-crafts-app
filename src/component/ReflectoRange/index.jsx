@@ -11,30 +11,47 @@ const ReflectoRange = () => {
 
     const ReflectoRange = [
         {
-            img: require("../../assets/Products/DomesticRange/TheReflectoRange/kc-1.png"),
-            name: "KC-2009 Junior",
-            alt: "reflecto-range",
+            id: 1,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-1.png"),
+            name: "KC-2009 Junior Crystal",
+            alt: "KC-2009 Junior Crystal",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheReflectoRange/kc-2.png"),
-            name: "KC-3009 Junior",
-            alt: "reflecto-range",
+            id: 2,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-2.png"),
+            name: "KC-2009 Junior Digital",
+            alt: "KC-2009 Junior Digital",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheReflectoRange/kc-2.png"),
-            name: "KC-4009 Junior",
-            alt: "reflecto-range",
+            id: 3,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-3.png"),
+            name: "KC-2009",
+            alt: "KC-2009",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheReflectoRange/kc-2.png"),
-            name: "KC-5009 Junior",
-            alt: "reflecto-range",
+            id: 4,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-4.png"),
+            name: "KC-2009 SS Crystal",
+            alt: "KC-2009 SS Crystal",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheReflectoRange/kc-2.png"),
-            name: "KC-6009 Junior",
-            alt: "reflecto-range",
-        }
+            id: 5,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-5.png"),
+            name: "KC-3009 Crystal",
+            alt: "KC-3009 Crystal",
+        },
+        {
+            id: 6,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-6.png"),
+            name: "KC-3009 SS Crystal",
+            alt: "KC-3009 SS Crystal",
+        },
+        {
+            id: 7,
+            img: require("../../assets/Products/DomesticRange/TheReflectoRange/img-7.png"),
+            name: "KC-4009",
+            alt: "KC-4009",
+        },
     ]
     return (
         <>
@@ -56,10 +73,10 @@ const ReflectoRange = () => {
                             >
 
                                 {
-                                    ReflectoRange.map((item, index) => {
+                                    ReflectoRange.map((item) => {
                                         return (
                                             <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index}
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={item.id}
                                                     sx={{
                                                         transition: '0.3s',
                                                         '&:hover': {
@@ -69,11 +86,13 @@ const ReflectoRange = () => {
                                                     }}
                                                 >
                                                     <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
-                                                        <img
+                                                     <div className="domestic-products-card-image-div-1">
+                                                     <img
                                                             src={item.img}
                                                             alt={item.alt || 'reflecto-range'}
                                                             className="single-burner-range-image"
                                                         />
+                                                     </div>
                                                         <h6 className="domestic-products-name-h6">
                                                             {item.name}
                                                         </h6>
@@ -88,12 +107,12 @@ const ReflectoRange = () => {
                             <FeatureList
                                 title={'Features'}
                                 features={[
-                                    'Stainless Steel Body',
-                                    'Brass Burner Set',
-                                    'High Efficiency Brass Burner',
-                                    'Sturdy Pan Support',
-                                    'Perfect Blue Flame',
-                                    'Slim Design',
+                                    'TOUGHENED GLASSTOP',
+                                    'ROUND EURO COATED GRID',
+                                    'HEAVY BRASS BURNERS',
+                                    'EASY CLEANING & MAINTENANCE',
+                                    'MANUAL IGNITION',
+                                    'SMOOTH OPERATING KNOBS',
                                 ]}
                             />
                         </CardContent>

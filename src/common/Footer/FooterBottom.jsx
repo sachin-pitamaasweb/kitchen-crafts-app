@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Grid, Typography } from '@mui/material';
 import './FooterBottom.css';
 const FooterBottom = () => {
+  const [year, setYear] = useState('');
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    const nextYear = currentYear + 1;
+    setYear(`${currentYear}-${nextYear}`);
+  }, []);
   return (
     <>
       <footer className="footer-bottom">
         <Grid container justifyContent="space-between" alignItems="center" spacing={2}>
           <Grid item>
             <Typography variant="body2" className='footer-bottom-left-text'>
-              ©2024-25 MRMC Foods. All Rights Reserved.
+              ©{year} Kitchen Craft. All Rights Reserved.
             </Typography>
           </Grid>
           <Grid item>

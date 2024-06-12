@@ -27,8 +27,8 @@ const AboutText = () => {
                         financial, and environmental benefits.
                     </p>
                     <p className="about-text-p" data-aos="fade-up" data-aos-duration="500">
-                        For KitchenCraft, quality is paramount. The company has been an SIO 901 certified entity since its inception and adheres strictly to the
-                        standards outlined in SI 4246 by The Bureau of Indian Standards in manufacturing its products.
+                        For KitchenCraft, quality is paramount. The company has been an ISO 900 certified entity since its inception and adheres strictly to the
+                        standards outlined in IS 4246 by The Bureau of Indian Standards in manufacturing its products.
                     </p>
                 </Grid>
             </Grid>

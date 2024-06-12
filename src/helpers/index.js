@@ -1,6 +1,7 @@
 export const navLinks = [
     { name: 'Home', to: '/' },
-    { name: 'Products', to: '/products/domestic' },
+    { name: 'Commercial', to: '/commercial' },
+    { name: 'Domestic', to: '/domestic' },
     { name: 'About Us', to: '/about' },
     { name: 'Contact Us', to: '/contact' }
 ];
@@ -166,279 +167,279 @@ export const CommercialBestSellersItemsForMobileView = [
 ];
 
 export const productCategories = [
-    {
-        category: "Domestic Products",
-        subcategories: [
-            {
-                subcategory: "Single Burner Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-1.png'),
-                        name: 'KC-00 Single(L)',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-2.png'),
-                        name: 'KC-101 Prince',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-3.png'),
-                        name: 'KC-102 Prestige',
-                    },
-                ],
-                features: [
-                    'Stainless Steel Body, Mini-500gm',
-                    'Cast Iron Burner-Painted',
-                    'MS Powder Coated Pan Support',
-                    'Skid Free Rubber Legs For Better Stability',
-                    'Strong Bakelite Knob',
-                    'Complies with IS 4246 standards.'
-                ],
-            },
-            {
-                subcategory: "The Compatibility Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-1.png'),
-                        name: 'KC-200 Lite',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-2.png'),
-                        name: 'KC-201 Gold',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-3.png'),
-                        name: 'KC-Nano',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-4.png'),
-                        name: 'KC-205 Nova',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-5.png'),
-                        name: 'KC-207 Supreme'
-                    },
-                    {
-                        childcategory: "KC-202 Commander",
-                        products: [
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-1.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-2.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-3.png'),
-                            }
-                        ],
-                    },
-                    {
-                        childcategory: 'KC-203 Prime',
-                        products: [
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-1.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-2.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-3.png'),
-                            }
-                        ]
-                    },
-                    {
-                        childcategory: 'KC-204 Benz',
-                        products: [
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-1.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-2.png'),
-                            },
-                            {
-                                image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-3.png'),
-                            }
-                        ]
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Brass Burner Set',
-                    'Electroplated Burner Set',
-                    '2 MS Powder Coated Pan Support',
-                    'Drip Tray',
-                    'C.I. 3 Round Pan Support',
-                ]
-            },
-            {
-                subcategory: "The Signature Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-1.png'),
-                        name: 'KC-208 Economy',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-2.png'),
-                        name: 'KC-209 Prestige',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-3.png'),
-                        name: 'KC-211 Magic',
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Brass Burner Set',
-                    'Electroplated Burner Set',
-                    'MS Powder Coated Pan Support',
-                    'Drip Tray',
-                    'C.I. 3 Round Pan Support',
-                ],
-            },
-            {
-                subcategory: "The Orbit Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
-                        name: 'KC-212 Smart',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
-                        name: 'KC-209 Prestige',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
-                        name: 'KC-211 Magic',
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Brass Burner Set',
-                    'Electroplated Burner Set',
-                    'MS Powder Coated Pan Support',
-                    'Drip Tray',
-                    'C.I. 3 Round Pan Support',
-                ],
-            },
-            {
-                subcategory: "The Premium Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-1.png'),
-                        name: 'KC-2012 Mitaso',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-2.png'),
-                        name: 'KC-2013 Sumo',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-3.png'),
-                        name: 'KC-2007 Super Deluxe',
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Brass Burner Set',
-                    '8 Prawn Powder Coated Pan Support',
-                    'Drip Tray'
-                ],
-            },
-            {
-                subcategory: "The Trinity Range",
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-1.png'),
-                        name: 'KC-1003',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-2.png'),
-                        name: 'KC-2003',
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-3.png'),
-                        name: 'KC-3003',
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Brass Burner Set',
-                    'High Efficiency Brass Burner',
-                    'Sturdy Pan Support',
-                    'Perfect Blue Flame',
-                    'Slim Design',
-                ],
-            },
-            {
-                subcategory: 'The Spectra Range',
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-1.png'),
-                        name: "KC-1006",
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-2.png'),
-                        name: "KC-2006",
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-3.png'),
-                        name: "KC-3006",
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-4.png'),
-                        name: "KC-4006",
-                    }
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Heavy Brass Burner Set',
-                    'Round Euro Coated Grid',
-                    'Smooth Operating Knobs',
-                    'Manual Ignition',
-                    'Easy Cleaning & Maintainance',
-                ],
-            },
-            {
-                subcategory: 'The Reflecto Range',
-                products: [
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name: "KC-2009 Junior",
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-2006'
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-3006'
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-3009'
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-3009'
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-3009'
-                    },
-                    {
-                        image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
-                        name:'KC-3009'
-                    },
-                ],
-                features: [
-                    'Stainless Steel Body',
-                    'Heavy Brass Burner Set',
-                    'Round Euro Coated Grid',
-                    'Smooth Operating Knobs',
-                    'Manual Ignition',
-                    'Easy Cleaning & Maintainance',
-                ]
-            }
-        ]
-    },
+    // {
+    //     category: "Domestic Products",
+    //     subcategories: [
+    //         {
+    //             subcategory: "Single Burner Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-1.png'),
+    //                     name: 'KC-00 Single(L)',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-2.png'),
+    //                     name: 'KC-101 Prince',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/SingleBurnerRange/kc-3.png'),
+    //                     name: 'KC-102 Prestige',
+    //                 },
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body, Mini-500gm',
+    //                 'Cast Iron Burner-Painted',
+    //                 'MS Powder Coated Pan Support',
+    //                 'Skid Free Rubber Legs For Better Stability',
+    //                 'Strong Bakelite Knob',
+    //                 'Complies with IS 4246 standards.'
+    //             ],
+    //         },
+    //         {
+    //             subcategory: "The Compatibility Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-1.png'),
+    //                     name: 'KC-200 Lite',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-2.png'),
+    //                     name: 'KC-201 Gold',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-3.png'),
+    //                     name: 'KC-Nano',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-4.png'),
+    //                     name: 'KC-205 Nova',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheCompatibilityRange/kc-5.png'),
+    //                     name: 'KC-207 Supreme'
+    //                 },
+    //                 {
+    //                     childcategory: "KC-202 Commander",
+    //                     products: [
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-1.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-2.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-202Commander/kc-3.png'),
+    //                         }
+    //                     ],
+    //                 },
+    //                 {
+    //                     childcategory: 'KC-203 Prime',
+    //                     products: [
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-1.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-2.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-203Prime/kc-3.png'),
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     childcategory: 'KC-204 Benz',
+    //                     products: [
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-1.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-2.png'),
+    //                         },
+    //                         {
+    //                             image: require('../assets/Products/DomesticRange/TheCompatibilityRange/KC-204Benz/kc-3.png'),
+    //                         }
+    //                     ]
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Brass Burner Set',
+    //                 'Electroplated Burner Set',
+    //                 '2 MS Powder Coated Pan Support',
+    //                 'Drip Tray',
+    //                 'C.I. 3 Round Pan Support',
+    //             ]
+    //         },
+    //         {
+    //             subcategory: "The Signature Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-1.png'),
+    //                     name: 'KC-208 Economy',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-2.png'),
+    //                     name: 'KC-209 Prestige',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSignatureRange/kc-3.png'),
+    //                     name: 'KC-211 Magic',
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Brass Burner Set',
+    //                 'Electroplated Burner Set',
+    //                 'MS Powder Coated Pan Support',
+    //                 'Drip Tray',
+    //                 'C.I. 3 Round Pan Support',
+    //             ],
+    //         },
+    //         {
+    //             subcategory: "The Orbit Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
+    //                     name: 'KC-212 Smart',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
+    //                     name: 'KC-209 Prestige',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheOrbitRange/kc-1.png'),
+    //                     name: 'KC-211 Magic',
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Brass Burner Set',
+    //                 'Electroplated Burner Set',
+    //                 'MS Powder Coated Pan Support',
+    //                 'Drip Tray',
+    //                 'C.I. 3 Round Pan Support',
+    //             ],
+    //         },
+    //         {
+    //             subcategory: "The Premium Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-1.png'),
+    //                     name: 'KC-2012 Mitaso',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-2.png'),
+    //                     name: 'KC-2013 Sumo',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/ThePremiumRange/kc-3.png'),
+    //                     name: 'KC-2007 Super Deluxe',
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Brass Burner Set',
+    //                 '8 Prawn Powder Coated Pan Support',
+    //                 'Drip Tray'
+    //             ],
+    //         },
+    //         {
+    //             subcategory: "The Trinity Range",
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-1.png'),
+    //                     name: 'KC-1003',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-2.png'),
+    //                     name: 'KC-2003',
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheTrinityRange/kc-3.png'),
+    //                     name: 'KC-3003',
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Brass Burner Set',
+    //                 'High Efficiency Brass Burner',
+    //                 'Sturdy Pan Support',
+    //                 'Perfect Blue Flame',
+    //                 'Slim Design',
+    //             ],
+    //         },
+    //         {
+    //             subcategory: 'The Spectra Range',
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-1.png'),
+    //                     name: "KC-1006",
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-2.png'),
+    //                     name: "KC-2006",
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-3.png'),
+    //                     name: "KC-3006",
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheSpectraRange/kc-4.png'),
+    //                     name: "KC-4006",
+    //                 }
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Heavy Brass Burner Set',
+    //                 'Round Euro Coated Grid',
+    //                 'Smooth Operating Knobs',
+    //                 'Manual Ignition',
+    //                 'Easy Cleaning & Maintainance',
+    //             ],
+    //         },
+    //         {
+    //             subcategory: 'The Reflecto Range',
+    //             products: [
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: "KC-2009 Junior",
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-2006'
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-3006'
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-3009'
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-3009'
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-3009'
+    //                 },
+    //                 {
+    //                     image: require('../assets/Products/DomesticRange/TheReflectoRange/kc-1.png'),
+    //                     name: 'KC-3009'
+    //                 },
+    //             ],
+    //             features: [
+    //                 'Stainless Steel Body',
+    //                 'Heavy Brass Burner Set',
+    //                 'Round Euro Coated Grid',
+    //                 'Smooth Operating Knobs',
+    //                 'Manual Ignition',
+    //                 'Easy Cleaning & Maintainance',
+    //             ]
+    //         }
+    //     ]
+    // },
     {
         category: "Commercial Products",
         subcategories: [
@@ -448,12 +449,12 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/TheSingleBurnerRange/img-1.png'),
                         name: 'Single-Burner',
-                        alt:"single-burner"
+                        alt: "single-burner"
                     },
                     {
                         image: require('../assets/Products/CommercialRange/TheSingleBurnerRange/img-2.png'),
                         name: 'Single-Burner-Chinese',
-                        alt:"single-burner-chinese"
+                        alt: "single-burner-chinese"
                     },
                 ],
             },
@@ -463,7 +464,7 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/DisplayCounter/img-1.png'),
                         name: '',
-                        alt:"display-counter"
+                        alt: "display-counter"
                     }
                 ]
             },
@@ -473,17 +474,17 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/The2BurnerRange/img-1.png'),
                         name: '2-Burner',
-                        alt:"2 Burner"
+                        alt: "2 Burner"
                     },
                     {
                         image: require('../assets/Products/CommercialRange/The2BurnerRange/img-2.png'),
                         name: `2 Burner Combo Indian & Chinese`,
-                        alt:"2 Burner Combo Indian & Chinese"
+                        alt: "2 Burner Combo Indian & Chinese"
                     },
                     {
                         image: require('../assets/Products/CommercialRange/The2BurnerRange/img-3.png'),
                         name: '2-Burner-Chinese',
-                        alt:"2 Burner Chinese"
+                        alt: "2 Burner Chinese"
                     }
                 ],
             },
@@ -491,9 +492,9 @@ export const productCategories = [
                 subcategory: "The 3 Burner Range",
                 products: [
                     {
-                        image:require('../assets/Products/CommercialRange/The3BurnerRange/img-1.png'),
+                        image: require('../assets/Products/CommercialRange/The3BurnerRange/img-1.png'),
                         name: '',
-                        alt:"The 3 Burner Range"
+                        alt: "The 3 Burner Range"
                     },
                 ],
             },
@@ -503,7 +504,7 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/The4BurnerRange/img-1.png'),
                         name: '',
-                        alt:"The 4 Burner Range"
+                        alt: "The 4 Burner Range"
                     },
                 ],
             },
@@ -513,31 +514,27 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/KadhaiRange/img-1.png'),
                         name: '',
-                        alt:"kadhai range"
+                        alt: "kadhai range"
                     },
                 ],
-            },{
-                subcategory: "Griddle Grill",
-                products: [
-                    {
-                        image: require('../assets/Products/CommercialRange/GriddleGrill/img-1.png'),
-                        name: '',
-                        alt:"Griddle Grill"
-                    },
-                ],
-            },
+            }, 
             {
                 subcategory: "Stock Pot Range",
                 products: [
                     {
-                        image:require('../assets/Products/CommercialRange/StockPotRange/img-1.png'),
-                        name: 'Double-Stock Pot',
-                        alt:"Double Stock Pot"
+                        image: require('../assets/Products/CommercialRange/StockPotRange/img-1.png'),
+                        name: 'Single Stock Pot',
+                        alt: "Single Stock Pot"
                     },
                     {
                         image: require('../assets/Products/CommercialRange/StockPotRange/img-2.png'),
+                        name: 'Double-Stock Pot',
+                        alt: "Double Stock Pot"
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/StockPotRange/img-3.png'),
                         name: 'Triple-Stock Pot',
-                        alt:"Triple Stock Pot"
+                        alt: "Triple Stock Pot"
                     },
                 ],
             },
@@ -547,10 +544,271 @@ export const productCategories = [
                     {
                         image: require('../assets/Products/CommercialRange/ChapatiRotiPufferPlate/img-1.png'),
                         name: '',
-                        alt:"Chapati Roti Puffer Plate"
+                        alt: "Chapati Roti Puffer Plate"
                     }
                 ]
-            }
+            },
+            {
+                subcategory: "Exhaust Hood",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/ExhaustHood/img-1.png'),
+                        name: "",
+                        alt: "Exhaust Hood",
+                    }
+                ]
+            },
+            {
+                subcategory: "Work Table",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/WorkTable/img-1.png'),
+                        name: "Work table with sink",
+                        alt: "Work table with sink"
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/WorkTable/img-2.png'),
+                        name: "Work table with Under Shelf",
+                        alt: "Work table with Under Shelf"
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/WorkTable/img-3.png'),
+                        name: "Work table",
+                        alt: "Work table"
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/WorkTable/img-4.png'),
+                        name: "Work table with 2 Under Shelf",
+                        alt: "Work table with 2 Under Shelf"
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/WorkTable/img-5.png'),
+                        name: "Work table with 2 Under Shelf & 2 OHS",
+                        alt: "Work table with 2 Under Shelf & 2 OHS"
+                    },
+                ]
+            },
+            {
+                subcategory: "Sink",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/Sink/img-1.png'),
+                        name: "Single Sink",
+                        alt: "Single Sink",
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/Sink/img-2.png'),
+                        name: "Double Sink",
+                        alt: "Double Sink",
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/Sink/img-3.png'),
+                        name: "Triple Sink",
+                        alt: "Triple Sink",
+                    }
+                ]
+            },
+            {
+                subcategory: "Storage",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/Storage/img-1.png'),
+                        name: "Can Storage Rack",
+                        alt: "Can Storage Rack",
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/Storage/img-2.png'),
+                        name: "Shelving Rack",
+                        alt: "Shelving Rack",
+                    },
+                    {
+                        image: require('../assets/Products/CommercialRange/Storage/img-3.png'),
+                        name: "Storage Pot Rack",
+                        alt: "Storage Pot Rack",
+                    }
+                ]
+            },
+            {
+                subcategory: "Wash Trough",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/WashTrough/img-1.png'),
+                        name: "",
+                        alt: "Wash Trough",
+                    }
+                ]
+            },
+            {
+                subcategory: "Soiled Dish Landing Table",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/SoiledDishLandingTable/img-1.png'),
+                        name: "",
+                        alt: "Soiled Dish Landing Table",
+                    }
+                ]
+            },
+            {
+                subcategory: "Tray Cooling Rack",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/TrayCoolingRack/img-1.png'),
+                        name: "",
+                        alt: "Tray Cooling Rack",
+                    }
+                ]
+            },
+            {
+                subcategory: "SS Drain Grating",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/SSDrainGrating/img-1.png'),
+                        name: "",
+                        alt: "SS Drain Grating",
+                    }
+                ]
+            },
+            {
+                subcategory: "Dunnage Rack",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/DunnageRack/img-1.png'),
+                        name: "",
+                        alt: "Dunnage Rack",
+                    }
+                ]
+            },
+            {
+                subcategory: "Hot Bain Marie",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/HotBainMarie/img-1.png'),
+                        name: "",
+                        alt: "Hot Bain Marie",
+                    }
+                ]
+            },
+            {
+                subcategory: "Potato & Onion Bin",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/PotatoOnionBin/img-1.png'),
+                        name: "",
+                        alt: "Potato & Onion Bin",
+                    }
+                ]
+            },
+            {
+                subcategory: "Undercounter Refrigerator with OHS",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/UndercounterRefrigeratorwithOHS/img-1.png'),
+                        name: "",
+                        alt: "Undercounter Refrigerator with OHS",
+                    }
+                ]
+            },
+            {
+                subcategory: "Pickup Counter",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/PickupCounter/img-1.png'),
+                        name: "",
+                        alt: "Pickup Counter",
+                    }
+                ]
+            },
+            {
+                subcategory: "Platform Trolley",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/PlatformTrolley/img-1.png'),
+                        name: "",
+                        alt: "Platform Trolley",
+                    }
+                ]
+            },
+            {
+                subcategory: "Dining Table 8 Seater",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/DiningTable8Seater/img-1.png'),
+                        name: "",
+                        alt: "Dining Table 8 Seater",
+                    }
+                ]
+            },
+            {
+                subcategory: "Masala Trolley",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/MasalaTrolley/img-1.png'),
+                        name: "",
+                        alt: "Masala Trolley",
+                    }
+                ]
+            },
+            {
+                subcategory: "Ingredients Bin",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/IngredientsBin/img-1.png'),
+                        name: "",
+                        alt: "Ingredients Bin",
+                    }
+                ]
+            },
+            {
+                subcategory: "Bussing Cart",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/BussingCart/img-1.png'),
+                        name: "",
+                        alt: "Bussing Cart",
+                    }
+                ]
+            },
+            {
+                subcategory: "GN Pan Trolley",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/GNPanTrolley/img-1.png'),
+                        name: "",
+                        alt: "GN Pan Trolley",
+                    }
+                ]
+            },
+            {
+                subcategory: "Pizza Assembly Counter",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/PizzaAssembly/img-1.png'),
+                        name: "",
+                        alt: "Pizza Assembly Counter",
+                    }
+                ]
+            },
+            {
+                subcategory: "Griddle Grill",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/GriddleGrill/img-1.png'),
+                        name: '',
+                        alt: "Griddle Grill"
+                    },
+                ],
+            },
+            {
+                subcategory: "Bar Counter",
+                products: [
+                    {
+                        image: require('../assets/Products/CommercialRange/BarCounter/img-1.png'),
+                        name: '',
+                        alt: "Bar Counter"
+                    },
+                ],
+            },
         ]
     }
 ]
+

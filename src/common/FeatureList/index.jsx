@@ -13,7 +13,7 @@ const FeatureList = ({ title, features }) => {
                     <ul className="domestic-products-features-ul" data-aos="zoom-in" data-aos-duration="500">
                         {
                             featuresListRight.map((feature, index) => (
-                                <li className="domestic-products-features-li" key={index} >{feature}</li>
+                                <li className="domestic-products-features-li" key={index} style={{ fontWeight: '800', textTransform: "uppercase" }}>{feature}</li>
                             ))
                         }
 
@@ -23,7 +23,7 @@ const FeatureList = ({ title, features }) => {
                     <ul className="domestic-products-features-ul" id="domestic-products-features-ul-id" data-aos="zoom-in" data-aos-duration="500">
                         {
                             featuresListLeft.map((feature, index) => (
-                                <li className="domestic-products-features-li" key={index}>{feature}</li>
+                                <li className="domestic-products-features-li" key={index} style={{ fontWeight: '800',  textTransform: "uppercase" }}>{feature}</li>
                             ))
                         }
                      

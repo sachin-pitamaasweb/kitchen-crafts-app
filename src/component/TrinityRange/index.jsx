@@ -11,19 +11,19 @@ const TrinityRange = () => {
 
     const TrinityRange = [
         {
-            img: require("../../assets/Products/DomesticRange/TheTrinityRange/kc-1.png"),
+            img: require("../../assets/Products/DomesticRange/TheTrinityRange/img-1.png"),
             name: "KC-1003",
-            alt: "Trinity Range",
+            alt: "KC-1003",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheTrinityRange/kc-2.png"),
-            name: "KC-2006",
-            alt: "Trinity Range",
+            img: require("../../assets/Products/DomesticRange/TheTrinityRange/img-2.png"),
+            name: "KC-2003",
+            alt: "KC-2003",
         },
         {
-            img: require("../../assets/Products/DomesticRange/TheTrinityRange/kc-3.png"),
-            name: "KC-3006",
-            alt: "Trinity Range",
+            img: require("../../assets/Products/DomesticRange/TheTrinityRange/img-3.png"),
+            name: "KC-3003",
+            alt: "KC-3003",
         }
     ]
     return (
@@ -40,31 +40,47 @@ const TrinityRange = () => {
                                     TrinityRange.map((item, index) => {
                                         return (
                                             <>
-                                                <div className="domestic-products-card-image-div" key={index} data-aos="zoom-in" data-aos-duration="500">
-                                                    <img
-                                                        src={item.img}
-                                                        alt={item.alt || 'Trinity Range'}
-                                                        className="single-burner-range-image"
-                                                    />
-                                                    <h6 className="domestic-products-name-h6">
-                                                        {item.name}
-                                                    </h6>
-                                                </div>
+                                                <Grid item xs={12} sm={12} md={4} lg={4}
+                                                    sx={{
+                                                        transition: '0.3s',
+                                                        '&:hover': {
+                                                            transform: 'scale(1.03)',
+                                                            boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                        },
+                                                    }}
+                                                >
+                                                    <div
+                                                        className="domestic-products-card-image-div"
+                                                        key={index} data-aos="zoom-in"
+                                                        data-aos-duration="500"
+                                                    >
+                                                        <div className="domestic-products-card-image-div-1">
+                                                            <img
+                                                                src={item.img}
+                                                                alt={item.alt || 'Trinity Range'}
+                                                                className="single-burner-range-image"
+                                                            />
+                                                        </div>
+                                                        <h6 className="domestic-products-name-h6">
+                                                            {item.name}
+                                                        </h6>
+                                                    </div>
+                                                </Grid>
                                             </>
                                         )
                                     })
                                 }
                             </div>
-                           <Hr />
+                            <Hr />
                             <FeatureList
-                            title={"Features"}
-                            features={[
-                                "Stainless Steel Body",
-                                 "Brass Burner Set", 
-                                 "High Efficiency Brass Burner",
-                                 'Sturdy Pan Support',
-                                 'Perfect Blue Flame',
-                                 'Slim Design',
+                                title={"Features"}
+                                features={[
+                                    "JOINTLESS STAINLESS STEEL BODY",
+                                    "HIGH EFFICIENCY BRASS BURNERS",
+                                    "SMOOTH OPERATING KNOBS",
+                                    'EASY CLEANING & MAINTENANCE',
+                                    'SLIM DESIGN',
+                                    'PERFECT BLUE FLAME',
                                 ]}
                             />
                         </CardContent>

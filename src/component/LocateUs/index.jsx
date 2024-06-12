@@ -23,7 +23,7 @@ const LocateUs = () => {
                     <iframe
                         className="locate-us-frame"
                         title="Google Map"
-                        src={'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522340.7628904274!2d72.28670385887821!3d30.442146502039133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919e42c24c6d4ff%3A0xd515ed799759aed1!2sMRMC%20Foods%20Pvt.%20Ltd.%20-%20Rice%20Mill%20in%20Ferozpur!5e0!3m2!1sen!2sin!4v1712822594332!5m2!1sen!2sin'}
+                        src={'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14426.416883809621!2d82.986583!3d25.3174981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1718194828524!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'}
                     >
 
                     </iframe>

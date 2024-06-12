@@ -10,19 +10,19 @@ const PremiumRange = () => {
 
     const PremiumRange = [
         {
-            img: require("../../assets/Products/DomesticRange/ThePremiumRange/kc-1.png"),
+            img: require("../../assets/Products/DomesticRange/ThePremiumRange/img-1.png"),
             name: "KC-2012 Mitaso",
             alt: "Premium Range",
         },
         {
-            img: require("../../assets/Products/DomesticRange/ThePremiumRange/kc-2.png"),
-            name: "KC-2013 Prestige",
+            img: require("../../assets/Products/DomesticRange/ThePremiumRange/img-2.png"),
+            name: "KC-2013 Sumo",
             alt: "Premium Range",
         },
         {
-            img: require("../../assets/Products/DomesticRange/ThePremiumRange/kc-3.png"),
-            name: "KC-2014 Prestige",
-            alt: "Premium Range",
+            img: require("../../assets/Products/DomesticRange/ThePremiumRange/img-3.png"),
+            name: "KC-2007 Super Deluxe",
+            alt: "KC-2007 Super Deluxe",
         }
     ]
     return (
@@ -38,16 +38,28 @@ const PremiumRange = () => {
                                 {
                                     PremiumRange.map((item, index) => {
                                         return (
+                                            <Grid item xs={12} sm={12} md={4} lg={4}
+                                            sx={{
+                                                transition: '0.3s',
+                                                '&:hover': {
+                                                    transform: 'scale(1.03)',
+                                                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                                                },
+                                            }}
+                                        >
                                             <div className="domestic-products-card-image-div" key={index} data-aos="zoom-in" data-aos-duration="500">
-                                                <img
+                                               <div className="domestic-products-card-image-div-1">
+                                               <img
                                                     src={item.img}
                                                     alt={item.alt || 'Premium Range'}
                                                     className="single-burner-range-image"
                                                 />
+                                               </div>
                                                 <h6 className="domestic-products-name-h6">
-                                                    KC-2007 Super Deluxe
+                                                   {item.name}
                                                 </h6>
                                             </div>
+                                        </Grid>
                                         )
                                     })
                                 }
@@ -56,10 +68,12 @@ const PremiumRange = () => {
                             <FeatureList
                                 title={"Features"}
                                 features={[
-                                    "Stainless Steel Body",
-                                    "Brass Burner Set",
-                                    "8 Prawn Powder Coated Pan Support",
-                                    "Drip Tray"
+                                    "8 PRAWNS SUPER STURDY PANSUPPORT",
+                                    "SMOOTH OPERATING KNOBS",
+                                    "HIGH EFFICIENCY BRASS BURNERS",
+                                    "SKID FREE RUBBER LEGS",
+                                    "EASY CLEANING & MAINTENANCE",
+                                    "UNIQUE BODY DESIGN"
                                 ]}
                             />
                         </CardContent>

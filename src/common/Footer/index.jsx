@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import FooterLogo from "./FooterLogo";
 
@@ -12,13 +12,21 @@ import FooterContact from "../../component/FooterContact/index.jsx";
 import './style.css';
 
 const Footer = () => {
+    const navigate = useNavigate();
     const location = useLocation();
     const isAboutPage = location.pathname === '/about';
+
+    const handleHome = () => {
+        navigate('/');
+        window.scrollTo(0, 0);
+    }
     return (
         <>
             <footer className="footer">
                 <div className="footer-div-image">
-                    <img src={require('../../assets/logo/footer-up-image.png')} alt="logo" className="footer-up-image" />
+                    <div onClick={handleHome} style={{ cursor: 'pointer' }} >
+                        <img src={require('../../assets/logo/footer-up-image.png')} alt="logo" className="footer-up-image" />
+                    </div>
                     {isAboutPage && (
                         <div className="footer-image"   >
                             <img src={require("../../assets/About/our-mission-footer.png")} alt="footer" className="our-mission-footer" />
