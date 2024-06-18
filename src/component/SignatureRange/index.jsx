@@ -147,7 +147,7 @@ const SignatureRange = () => {
         },
         {
             id: 8,
-            img: require("../../assets/Products/DomesticRange/TheSignatureRange/img-7.png"),
+            img: require("../../assets/Products/DomesticRange/TheSignatureRange/img-8.png"),
             name: "KC-Nano",
             alt: "KC-Nano",
         },
