@@ -1,4 +1,165 @@
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-top: 14px !important;
+}
+
 .banners-image{
     width: 100%;
     object-fit: contain;
 }
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 27px;
+    width: 38%;
+    text-align: center;
+    animation: slideInFromRight 1s ease-out;
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 60%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 6px;
+        width: 51%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px)  {
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 60%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 6px;
+        width: 51%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 60%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 6px;
+        width: 51%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
+@media screen and (min-width: 426px) and (max-width: 600px){
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 60%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 6px;
+        width: 56%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 58%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 8px;
+        width: 56%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 54%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 12px;
+        width: 56%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+    .overlay-text {
+        position: absolute;
+        left: 0%;
+        top: 54%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 12px;
+        width: 56%;
+        text-align: center;
+        animation: slideInFromRight 1s ease-out;
+    }
+    
+}
+
