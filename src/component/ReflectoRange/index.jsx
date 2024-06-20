@@ -69,14 +69,15 @@ const ReflectoRange = () => {
                                 justifyContent="center"
                                 alignItems="center"
                                 className="the-spectra-range"
-
                             >
 
                                 {
-                                    ReflectoRange.map((item) => {
+                                    ReflectoRange.map((item, index) => {
                                         return (
-                                            <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={item.id}
+                                            <React.Fragment key={index}>
+                                                <Grid
+                                                 item xs={12} sm={12} md={4} lg={4} 
+                                                 className="the-spectra-range-1" 
                                                     sx={{
                                                         transition: '0.3s',
                                                         '&:hover': {
@@ -84,8 +85,9 @@ const ReflectoRange = () => {
                                                             boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
                                                         },
                                                     }}
+                                                   
                                                 >
-                                                    <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
+                                                    <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500" >
                                                      <div className="domestic-products-card-image-div-1">
                                                      <img
                                                             src={item.img}
@@ -98,7 +100,7 @@ const ReflectoRange = () => {
                                                         </h6>
                                                     </div>
                                                 </Grid>
-                                            </>
+                                            </React.Fragment>
                                         )
                                     })
                                 }

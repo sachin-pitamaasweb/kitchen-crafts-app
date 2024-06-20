@@ -52,8 +52,8 @@ const SpectraRange = () => {
                                 {
                                     SpectraRange.map((item, index) => {
                                         return (
-                                            <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={index}
+                                            <React.Fragment key={index}>
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1"
                                                     sx={{
                                                         transition: '0.3s',
                                                         '&:hover': {
@@ -80,7 +80,7 @@ const SpectraRange = () => {
                                                         </h6>
                                                     </div>
                                                 </Grid>
-                                            </>
+                                            </React.Fragment>
                                         )
                                     })
                                 }

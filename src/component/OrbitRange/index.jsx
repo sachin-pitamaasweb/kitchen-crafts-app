@@ -63,8 +63,8 @@ const TheOrbitRange = () => {
                                 {
                                     TheOrbitRange.map((item) => {
                                         return (
-                                            <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={item.id}
+                                            <React.Fragment key={item.id}>
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1"
                                                     sx={{
                                                         transition: '0.3s',
                                                         '&:hover': {
@@ -86,7 +86,7 @@ const TheOrbitRange = () => {
                                                         </h6>
                                                     </div>
                                                 </Grid>
-                                            </>
+                                            </React.Fragment>
                                         )
                                     })
                                 }

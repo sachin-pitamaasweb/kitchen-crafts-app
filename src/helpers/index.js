@@ -772,7 +772,7 @@ export const productCategories = [
                 subcategory: "GN Pan Trolley",
                 products: [
                     {
-                        image: require('../assets/Products/CommercialRange/GNPanTrolley/img-1.png'),
+                        image: require('../assets/Products/CommercialRange/GNPanTrolley/img-2.png'),
                         name: "",
                         alt: "GN Pan Trolley",
                     }

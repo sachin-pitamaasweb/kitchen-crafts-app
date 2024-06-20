@@ -8,28 +8,28 @@ import './style.css';
 
 const PremiumGasStovePromoImagesData = [
   {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-1.png"),
-    name: 'KC-208 Economy',
-  },
-  {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-2.png"),
-    name: 'KC-3009',
-  },
-  {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-3.png"),
-    name: 'KC-2007 Super Deluxe',
-  },
-  {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-4.png"),
-    name: 'KC-3003',
-  },
-  {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-5.png"),
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-102.png"),
     name: 'KC-102 Prestige',
   },
   {
-    imageSrc: require("../../../assets/PremiumGasStovePromo/img-6.png"),
-    name: 'KC-200 Lite',
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-208.png"),
+    name: '⁠KC 208 economy',
+  },
+  {
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-2012.png"),
+    name: 'KC-2012 Mitaso',
+  },
+  {
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-2006.png"),
+    name: 'KC-2006',
+  },
+  {
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-2009.png"),
+    name: 'KC-2009',
+  },
+  {
+    imageSrc: require("../../../assets/PremiumGasStovePromo/kc-3009.png"),
+    name: 'KC-3009 SS Crystal',
   }
 ];
 

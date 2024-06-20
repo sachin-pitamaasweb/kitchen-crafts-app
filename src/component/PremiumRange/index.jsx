@@ -46,8 +46,9 @@ const PremiumRange = () => {
                                                     boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
                                                 },
                                             }}
+                                            key={index}
                                         >
-                                            <div className="domestic-products-card-image-div" key={index} data-aos="zoom-in" data-aos-duration="500">
+                                            <div className="domestic-products-card-image-div" data-aos="zoom-in" data-aos-duration="500">
                                                <div className="domestic-products-card-image-div-1">
                                                <img
                                                     src={item.img}

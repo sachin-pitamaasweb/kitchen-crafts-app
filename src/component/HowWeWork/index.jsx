@@ -20,7 +20,7 @@ const HowWeWork = () => {
                     <Title title="How We Work" />
                 </Grid>
                 <Grid item xs={12} lg={6} md={6} className="how-we-work-grid-image">
-                    <img src={require("../../assets/HowWeWork/work.png")} alt="work" className="how-we-work-image"   />
+                    <img src={require("../../assets/HowWeWork/work-1.png")} alt="work" className="how-we-work-image"   />
                 </Grid>
                 <Grid item xs={12} lg={6} md={6} className="how-we-work-grid-text">
                     {

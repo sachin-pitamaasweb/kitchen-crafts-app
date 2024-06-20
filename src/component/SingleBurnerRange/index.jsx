@@ -39,8 +39,8 @@ const SingleBurnerRange = () => {
                                 {
                                     SingleBurnerRange.map((item, index) => {
                                         return (
-                                            <>
-                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1" key={item.id}
+                                            <React.Fragment key={index}>
+                                                <Grid item xs={12} sm={12} md={4} lg={4} className="the-spectra-range-1"
                                                     sx={{
                                                         transition: '0.3s',
                                                         '&:hover': {
@@ -63,7 +63,7 @@ const SingleBurnerRange = () => {
                                                         </h6>
                                                     </div>
                                                 </Grid>
-                                            </>
+                                            </React.Fragment>
                                         )
                                     })
                                 }
@@ -72,7 +72,7 @@ const SingleBurnerRange = () => {
                             <FeatureList
                                 title="Features"
                                 features={[
-                                    "Stainless Steel Body, Mini-500gm",
+                                    "Stainless Steel Body",
                                     "Cast Iron Burner-Painted",
                                     "MS Powder Coated Pan Support",
                                     "Skid Free Rubber Legs For Better Stability",

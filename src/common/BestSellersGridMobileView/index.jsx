@@ -5,7 +5,7 @@ import Title from '../Title';
 
 import './style.css'; 
 
-const BestSellersGridMobileView = ({ title, items }) => {
+const BestSellersGridMobileView = ({ title, items, handleKnowMore }) => {
   const gridBackgroundStyle = {
     background: 'linear-gradient(to right, #E67940 0%, #FE5656 50%, #D4642A 100%)',
     padding: '16px',
@@ -93,7 +93,7 @@ const BestSellersGridMobileView = ({ title, items }) => {
             >
               <Box style={itemStyle} data-aos="zoom-in" data-aos-duration="500">
                 {renderItems(title, index, item)}
-                <button style={buttonStyle}>
+                <button style={buttonStyle} onClick={handleKnowMore}>
                   {item.buttonText}
                 </button>
               </Box>

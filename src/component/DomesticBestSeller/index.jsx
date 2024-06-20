@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 //MUI
 import { useMediaQuery, useTheme } from '@mui/material';
 
@@ -14,8 +14,14 @@ import { DomesticBestSellerItems } from "../../helpers/index";
 import './style.css'
 
 const BestSeller = () => {
+    const navigate = useNavigate();
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.up('md'));
+
+    const handleKnowMore = () => {
+        window.scrollTo(0, 0);
+        navigate("/domestic");
+    }
 
     return (
         <>
@@ -23,12 +29,14 @@ const BestSeller = () => {
                 <BestSellersGridMobileView
                     title={"Domestic Best Seller"}
                     items={DomesticBestSellerItems}
+                    handleKnowMore={handleKnowMore}
                 />
             )
                 :
                 (<BestSellersGrid
                     title={"Domestic Best Seller"}
                     items={DomesticBestSellerItems}
+                    handleKnowMore={handleKnowMore}
                 />
 
 

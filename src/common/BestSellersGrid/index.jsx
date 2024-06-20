@@ -8,7 +8,7 @@ import Title from "../Title";
 //Styles
 import "./style.css";
 
-const BestSellersGrid = ({ title, items, className }) => {
+const BestSellersGrid = ({ title, items, className, handleKnowMore }) => {
     return (
         <>
             <Grid container className="best-seller-grid" sapcing={2}>
@@ -46,7 +46,7 @@ const BestSellersGrid = ({ title, items, className }) => {
 
                                 {/* Optional button */}
                                 <div className="best-seller-text-div">
-                                    <button className="best-seller-button">
+                                    <button className="best-seller-button" onClick={handleKnowMore}>
                                         {item.buttonText || "Know More"}
                                     </button>
                                 </div>

@@ -39,7 +39,7 @@ const TrinityRange = () => {
                                 {
                                     TrinityRange.map((item, index) => {
                                         return (
-                                            <>
+                                            <React.Fragment key={index}>
                                                 <Grid item xs={12} sm={12} md={4} lg={4}
                                                     sx={{
                                                         transition: '0.3s',
@@ -66,7 +66,7 @@ const TrinityRange = () => {
                                                         </h6>
                                                     </div>
                                                 </Grid>
-                                            </>
+                                            </React.Fragment>
                                         )
                                     })
                                 }

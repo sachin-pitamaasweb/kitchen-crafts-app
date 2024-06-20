@@ -21,7 +21,7 @@ const OurFamily = () => {
         },
         {
             no: "40000+",
-            text: "Infrastructure (Sq.Km.)"
+            text: "Infrastructure (Sq Ft.)"
         },
         {
             no: 30,
