@@ -22,9 +22,31 @@ const WriteUsMobileView = () => {
           [name]: value,
         }));
       };
+
+      const validateForm = () => {
+        const { firstName, lastName, contactNo, email, message } = formData;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!firstName || !lastName || !contactNo || !email || !message) {
+          toast.error("All fields are required.");
+          return false;
+        }
+        if (!emailRegex.test(email)) {
+          toast.error("Please enter a valid email address.");
+          return false;
+        }
+        if (isNaN(contactNo) || contactNo.length < 10 || contactNo.length > 10) {
+          toast.error("Please enter a valid contact number.");
+          return false;
+        }
+        return true;
+      };
+    
       const handleSubmit = async (e) => {
         e.preventDefault();
         
+        if (!validateForm()) {
+            return;
+          }
         const serviceId = "service_xbpym29"; 
         const templateId = "template_l9v3dmj";
         const userId = "8sj2D8HPFXExHcvPb";
