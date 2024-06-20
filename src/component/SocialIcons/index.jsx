@@ -4,27 +4,38 @@ import "./style.css";
 
 const SocialIcons = ({ mobileView }) => {
   const socialIcons = [
-    { src: require("../../assets/icons/facebook.png"), alt: "Facebook" },
-    { src: require("../../assets/icons/instagram.png"), alt: "Instagram" },
-    { src: require("../../assets/icons/twitter.png"), alt: "Twitter" },
+    {
+      src: require("../../assets/icons/facebook.png"),
+      alt: "Facebook",
+      link: "https://www.facebook.com/profile.php?id=61561227300100"
+    },
+    {
+      src: require("../../assets/icons/instagram.png"),
+      alt: "Instagram",
+      link: "",
+    },
+    {
+      src: require("../../assets/icons/twitter.png"),
+      alt: "Twitter",
+      link: "",
+    },
   ];
   return (
     <div className="social-icons">
       <div className={mobileView ? "social-icons-div-mobile" : "social-icons-div"}>
         {socialIcons.map((icon, index) => (
-          <img
-            src={icon.src}
-            alt={icon.alt}
-            className={
-              mobileView ? "social-icons-image-mobile" : "social-icons-image"
-            }
-            key={index}
-            
-            
-          />
+          <a href={icon.link} key={index} target="_blank" rel="noopener noreferrer">
+            <img
+              src={icon.src}
+              alt={icon.alt}
+              className={
+                mobileView ? "social-icons-image-mobile" : "social-icons-image"
+              }
+            />
+          </a>
         ))}
       </div>
-    </div>
+    </div >
   )
 }
 
