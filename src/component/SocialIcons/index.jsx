@@ -12,12 +12,12 @@ const SocialIcons = ({ mobileView }) => {
     {
       src: require("../../assets/icons/instagram.png"),
       alt: "Instagram",
-      link: "",
+      link: "https://www.instagram.com/kitchencraftvns/",
     },
     {
-      src: require("../../assets/icons/twitter.png"),
-      alt: "Twitter",
-      link: "",
+      src: require("../../assets/icons/LinkedIn.png"),
+      alt: "LinkedIn",
+      link: "https://www.linkedin.com/company/kitchencraftindia/",
     },
   ];
   return (

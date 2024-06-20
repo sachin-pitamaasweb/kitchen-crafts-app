@@ -13,7 +13,7 @@ import SignatureRange from "../../../component/SignatureRange/index.jsx";
 import SingleBurnerRange from '../../../component/SingleBurnerRange/index.jsx';
 // import TheCompatibilityRange from "../../../component/TheCompatibilityRange/index.jsx";
 
-import ProductImage from "../../../assets/banner/product-banner.svg";
+import ProductImage from "../../../assets/banner/domestic-range.svg";
 
 import './style.css';
 
